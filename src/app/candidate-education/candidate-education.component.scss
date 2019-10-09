@@ -1,0 +1,35 @@
+@import '../../variables.scss';
+
+.educationItem-head {
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.4em; //TODO maybe just 5px more than original font-size
+	margin-bottom: 6px;
+}
+
+.educationItem-grade {
+  font-size: $default-font-size - 1;
+  margin-bottom: 6px;
+}
+
+.educationItemItem-subtHead {
+  margin-bottom: 8px;
+}
+
+.educationItem-institution, .educationItem-period {
+	font-style: italic;
+	font-size: 14px; //TODO make a variable font-size + 1
+	margin-bottom: 0px
+}
+
+.educationItem-info {
+  margin-left: 1ex;
+  margin-bottom: 10px
+}
+
+.educationItem-Courses {
+  margin-top: 0;
+  margin-left: 1ex;
+}
+
+

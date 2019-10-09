@@ -1,0 +1,39 @@
+<div class="education-section content-section">
+  <div class="section-head">
+    EDUCATION
+  </div>
+  <div class="section-body">
+    <div *ngFor='let eduItem of educationList'>
+      <div
+        class='educationItem-head'
+        [innerHTML]="eduItem.head"
+      >
+      </div>
+      <div *ngIf='eduItem.grade'
+        class='educationItem-grade highlight-oval'
+        [innerHTML]="eduItem.grade"
+      ></div>
+      <div class='educationItemItem-subtHead'>
+        <div
+          class='educationItem-institution'
+          [innerHTML]="eduItem.institution"
+        ></div>
+        <div
+          class='educationItem-period'
+          [innerHTML]="eduItem.period"
+        ></div>
+      </div>
+
+      <div
+        class='educationItem-info'
+        [innerHTML]="eduItem.info"
+      ></div>
+      <ul class='educationItem-Courses'>
+          <li
+            *ngFor='let course of eduItem.courses'
+            [innerHTML]="course"
+          >  </li>
+      </ul>
+    </div>
+  </div>
+</div>

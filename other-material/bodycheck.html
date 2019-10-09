@@ -1,0 +1,1119 @@
+<html>
+<head></head>
+<body>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+<title>Giulian Fazio</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+		body {
+  background: #E5DED4;
+  font: 15px Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  color: #929292;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10%;
+}
+
+#resume {
+  border-radius: 5px;
+  border: 1px solid #C7C7C7;
+  overflow: hidden;
+}
+
+section {
+  margin-bottom: 5rem;
+}
+
+[class^="section-"] > .title {
+  text-transform: uppercase;
+  padding: 15px 0;
+  margin: 0;
+}
+
+[class^="section-"] > .title .title-icon,
+[class^="section-"] > .title span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+[class^="section-"] > .title span {
+  margin-left: 2px;
+}
+
+[class^="section-"] > .title .title-icon {
+  background-color: whitesmoke;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.4rem 0.45rem;
+}
+
+/* Sidebar */
+.sidebar {
+  padding: 2rem;
+  background: #333438 !important;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.sidebar, .sidebar h1, .sidebar h2 {
+  color: #ffffff !important;
+}
+
+.sidebar h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+.avatar {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.avatar img {
+  width: 90%;
+}
+
+.section-education .item {
+  margin-bottom: 3rem;
+}
+
+.section-education .studyTitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.section-education .courses {
+  font-size: 1.2rem;
+}
+.section-education ul.courses {
+  list-style-type: none;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0;
+}
+
+.section-education .ul.courses li {
+  margin:0;
+}
+
+.section-education .institution {
+  font-size: 1.2rem;
+}
+
+.section-education .date {
+  font-size: 1.2rem;
+}
+
+.sidebar a:link, .sidebar a:hover, .sidebar a:visited {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+/* Content */
+.content {
+  padding: 5rem;
+  background: #FFFFFF;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.content h1 {
+  color: #3C3C3C;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 1.0rem;
+  font-weight: bold;
+}
+
+.content h2 {
+  color: #6D6D6D;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+.content a:link, .content a:hover, .content a:visited {
+  text-decoration: none;
+  color: #6D6D6D;
+}
+
+/* Sections */
+.section-name {
+  margin: 5rem 0 10rem 0;
+}
+
+.section-name h2 {
+  color: #6D6D6D;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+.section-summary {
+  text-align: justify;
+}
+
+.section-work .item {
+  margin-bottom: 2.5rem;
+}
+
+.section-work .item .position {
+  font-weight: bold;
+  color: #333438;
+  text-transform: uppercase;
+}
+
+.section-work .item .company {
+    padding: 0.5rem 0 0.5rem 0;
+    color: #6D6D6D;
+    font-weight: bold;
+}
+
+.section-work .item .summary, .section-work .item .highlights {
+    font-style: italic;
+    text-align: justify;
+}
+
+.section-volunteer .item {
+  margin-bottom: 2.5rem;
+}
+
+.section-volunteer .item .position {
+  font-weight: bold;
+  color: #333438;
+  text-transform: uppercase;
+}
+
+.section-volunteer .item .company {
+    padding: 0.5rem 0 0.5rem 0;
+    color: #6D6D6D;
+    font-weight: bold;
+}
+
+.section-volunteer .item .summary, .section-volunteer .item .highlights {
+    font-style: italic;
+    text-align: justify;
+}
+
+
+.section-publications .item {
+  margin-bottom: 2.5rem;
+}
+
+.section-publications .item .name {
+  font-weight: bold;
+  color: #333438;
+  text-transform: uppercase;
+}
+
+.section-publications .item .publication {
+    padding: 0.5rem 0 0.5rem 0;
+    color: #6D6D6D;
+    font-weight: bold;
+}
+
+.section-publications .item .summary, .section-publications .item .highlights {
+    font-style: italic;
+    text-align: justify;
+}
+
+
+.section-awards .item .title {
+  font-weight: bold;
+  color: #333438;
+}
+
+.section-awards .item .date, .section-awards .item .awarder {
+  font-weight: normal;
+  color: #929292;
+}
+
+.section-awards .item .summary {
+  font-weight: normal;
+  font-style: italic;
+  text-align: justify;
+}
+
+.section-languages .item .language {
+  font-weight: bold;
+  color: #333438;
+}
+
+.section-languages .item .fluency {
+  font-weight: normal;
+  color: #929292;
+}
+
+.section-interests .title {
+  font-weight: bold;
+}
+
+.section-interests .item {
+  margin: 0.8rem 0 0.8rem 0;
+  line-height: 1.9rem;
+}
+
+.section-skills .item {
+  margin-bottom: 1rem;
+}
+
+
+.section-contact .fa {
+  padding: 0.8rem 0 0 0;
+  background: #fff;
+  color: #333438;
+  border-radius: 100rem;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  margin: -0.4rem 0.8rem 0.8rem 0.5rem;
+  float: left;
+}
+
+.section-contact ul.contact {
+  list-style-type: none;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0;
+}
+
+.section-contact ul.contact li {
+  margin: 1rem 0 1rem 0;
+}
+
+.section-contact ul.profiles {
+  list-style-type: none;
+  margin: 4rem 0 0.5rem 0;
+  padding: 0;
+}
+
+.section-contact ul.profiles li {
+  margin: 1rem 0 1rem 0;
+}
+
+/* Print */
+@media print {
+  body {
+    font: 10px Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: #929292 !important;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #resume {
+    overflow: hidden;
+    border: none !important;
+  }
+
+  section {
+    margin-bottom: 2.5rem;
+  }
+
+  [class^="section-"] > .title {
+    text-transform: uppercase;
+    padding: 0.7rem 0;
+    margin: 0;
+  }
+
+  [class^="section-"] > .title .title-icon,
+  [class^="section-"] > .title span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  [class^="section-"] > .title span {
+    margin-left: 2px;
+  }
+
+  [class^="section-"] > .title .title-icon {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.4rem 0.45rem;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    padding: 2rem;
+    background: #333438 !important;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+		color: #ffffff !important;
+  }
+
+  .sidebar, .sidebar h1, .sidebar h2 {
+    color: #ffffff !important;
+  }
+
+  .sidebar h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    margin-top: 5rem;
+		color: #ffffff !important;
+  }
+
+  .sidebar h2.title span {
+    color: #ffffff !important;
+}
+
+  .avatar {
+    margin: 2rem 0 2rem 1rem;
+    text-align: center;
+  }
+
+  .avatar img {
+    width: 85%;
+  }
+
+  .section-education .item {
+    margin-bottom: 3rem;
+		color: #ffffff !important;
+  }
+
+  .section-education .studyTitle span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+		color: #ffffff !important;
+  }
+
+  .section-education .studyTitle span.badge{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.0rem;
+		color: #ffffff !important;
+    background: #939393 !important;
+  }
+
+  .section-education .courses {
+    font-size: 1.1rem;
+		color: #ffffff !important;
+  }
+
+  .section-education ul.courses {
+    list-style-type: none;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0;
+  }
+
+  .section-education .ul.courses li {
+    margin:0;
+		color: #ffffff !important;
+  }
+
+  .section-education .institution {
+    font-size: 1.0rem;
+		color: #ffffff !important;
+  }
+
+  .section-education .date span{
+    font-size: 1.0rem;
+		color: #ffffff !important;
+  }
+
+  .sidebar a:link, .sidebar a:hover, .sidebar a:visited {
+    text-decoration: none;
+		color: #ffffff !important;
+  }
+
+  /* Content */
+  .content {
+    padding: 3rem 5rem 3rem 2rem;
+    background: #FFFFFF !important;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+  }
+
+  .content h1 {
+    color: #3C3C3C !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1.0rem;
+    font-weight: bold;
+  }
+
+  .content h2 {
+    color: #6D6D6D !important;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  .content a:link, .content a:hover, .content a:visited {
+    text-decoration: none;
+    color: #6D6D6D !important;
+  }
+
+  /* Sections */
+  .section-name {
+    margin: 1rem 0 5rem 0;
+  }
+
+  .section-name h2 {
+    color: #6D6D6D !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    margin-top: 3rem;
+  }
+
+  .section-summary {
+    text-align: justify;
+  }
+
+  .section-work .item {
+    margin-bottom: 2.5rem;
+  }
+
+  .section-work .item .position {
+    font-weight: bold;
+    color: #333438 !important;
+    text-transform: uppercase;
+  }
+
+  .section-work .item .company {
+      padding: 0.5rem 0 0.5rem 0;
+      color: #6D6D6D !important;
+      font-weight: bold;
+  }
+
+  .section-work .item .summary, .section-work .item .highlights {
+      font-style: italic;
+      text-align: justify;
+  }
+
+  .section-volunteer .item {
+    margin-bottom: 2.5rem;
+  }
+
+  .section-volunteer .item .position {
+    font-weight: bold;
+    color: #333438 !important;
+    text-transform: uppercase;
+  }
+
+  .section-volunteer .item .company {
+      padding: 0.5rem 0 0.5rem 0;
+      color: #6D6D6D !important;
+      font-weight: bold;
+  }
+
+  .section-volunteer .item .summary, .section-volunteer .item .highlights {
+      font-style: italic;
+      text-align: justify;
+  }
+
+
+  .section-publications .item {
+    margin-bottom: 2.5rem;
+  }
+
+  .section-publications .item .name {
+    font-weight: bold;
+    color: #333438 !important;
+    text-transform: uppercase;
+  }
+
+  .section-publications .item .publication {
+      padding: 0.5rem 0 0.5rem 0;
+      color: #6D6D6D !important;
+      font-weight: bold;
+  }
+
+  .section-publications .item .summary, .section-publications .item .highlights {
+      font-style: italic;
+      text-align: justify;
+  }
+
+
+  .section-awards .item .title {
+    font-weight: bold;
+    color: #333438 !important;
+  }
+
+  .section-awards .item .date, .section-awards .item .awarder {
+    font-weight: normal;
+    color: #929292 !important;
+  }
+
+  .section-awards .item .summary {
+    font-weight: normal;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .section-languages .item .language {
+    font-weight: bold;
+    color: #333438 !important;
+  }
+
+  .section-languages .item .fluency {
+    font-weight: normal;
+    color: #929292 !important;
+  }
+
+  .section-interests .title {
+    font-weight: bold;
+  }
+
+  .section-interests .item {
+    margin: 0.2rem 0 0.0rem 0;
+    line-height: 1.4rem;
+  }
+
+  .section-skills .item {
+    margin-bottom: 1rem;
+  }
+
+  .section-skills .item .name {
+    color: #ffffff !important;
+  }
+
+	.section-skills .item .keywords .span {
+		color: #ffffff !important;
+		background: #929292 !important;
+	}
+
+  .section-skills .keywords span.label {
+      color: #000 !important;
+      background: #929292 !important;
+      line-height: 1.7rem;
+  }
+
+
+  .section-contact .fa {
+    padding: 0.5rem 0 0 0;
+    background: #ffffff  !important;
+    color: #333438 !important;
+    border-radius: 100rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    text-align: center;
+    margin: -0.4rem 0.8rem 0.8rem 0.5rem;
+    float: left;
+  }
+
+  .section-contact ul.contact {
+    list-style-type: none;
+    margin: 0.2rem 0 0.2rem 0;
+    padding: 0;
+  }
+
+  .section-contact ul.contact li {
+    margin: 0.5rem 0 0.5rem 0;
+		color: #ffffff !important;
+  }
+
+  .section-contact ul.profiles {
+    list-style-type: none;
+    margin: 4rem 0 0.5rem 0;
+    padding: 0;
+  }
+
+  .section-contact ul.profiles li {
+    margin: 0.5rem 0 0.5rem 0;
+		color: #ffffff !important;
+  }
+
+  .section-contact ul.contact li span,.section-contact ul.profiles li span {
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      color: #ffffff !important;
+  }
+
+}
+
+		</style>
+
+
+<div class="container" style="height: 4431.92px; margin-left: 366.5px; margin-right: 366.5px; padding: 190.297px; width: 1170px; perspective-origin: 585px 2215.95px; transform-origin: 585px 2215.95px 0px;">
+<div class="row" id="resume" style="border-color: rgb(199, 199, 199); border-radius: 5px; border-style: solid; border-width: 1px; height: 4051.33px; margin-left: -15px; margin-right: -15px; overflow: hidden; width: 819.406px; perspective-origin: 409.688px 2025.66px; transform-origin: 409.688px 2025.66px 0px;">
+<div class="col-xs-4 sidebar" style="padding: 20px 20px 99999px; background-color: rgb(51, 52, 56); border-color: rgb(255, 255, 255); bottom: 0px; color: rgb(255, 255, 255); float: left; height: 104048px; left: 0px; margin-bottom: -99999px; min-height: 1px; outline-color: rgb(255, 255, 255); position: relative; right: 0px; text-decoration: none solid rgb(255, 255, 255); top: 0px; width: 272.453px; column-rule-color: rgb(255, 255, 255); perspective-origin: 136.219px 52024px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 136.219px 52024px 0px; caret-color: rgb(255, 255, 255);">
+<section class="section-basic" style="margin-bottom: 15px; border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 174.328px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 232.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 116.219px 87.1563px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 116.219px 87.1563px 0px; caret-color: rgb(255, 255, 255);">
+<div class="avatar" style="margin-top: 0px; margin-bottom: 0px; border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 174.328px; outline-color: rgb(255, 255, 255); text-align: center; text-decoration: none solid rgb(255, 255, 255); width: 232.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 116.219px 87.1563px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 116.219px 87.1563px 0px; caret-color: rgb(255, 255, 255);">
+<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIAAgDGAAAAAQAAAAAAAAoJAAAAJDRmMDk4NzM0LTMwZDUtNDBiMC05MzNjLTgxNzcyNjU1NTIyNw.jpg" alt="Giulian Fazio" class="img-circle" style="color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); border-radius: 50%; height: 174.328px; outline-color: rgb(0, 0, 0); text-align: center; text-decoration: none solid rgb(0, 0, 0); width: 174.328px; column-rule-color: rgb(0, 0, 0); perspective-origin: 87.1563px 87.1563px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 87.1563px 87.1563px 0px; caret-color: rgb(255, 255, 255);">
+</div>
+</section>
+<section class="section-contact" style="margin-bottom: 20px; border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 259px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 232.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 116.219px 129.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 116.219px 129.5px 0px; caret-color: rgb(255, 255, 255);">
+<h2 class="title" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 47px; letter-spacing: 5px; line-height: 17.6px; margin-bottom: 0px; margin-top: 0px; outline-color: rgb(255, 255, 255); padding-bottom: 15px; padding-top: 15px; text-align: center; text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; width: 232.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 116.219px 23.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 116.219px 23.5px 0px; caret-color: rgb(255, 255, 255);">
+<span class="" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); display: inline-block; font-size: 16px; font-weight: 700; height: 17px; letter-spacing: 5px; line-height: 17.6px; margin-left: 2px; outline-color: rgb(255, 255, 255); text-align: center; text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; vertical-align: middle; width: 112.031px; column-rule-color: rgb(255, 255, 255); perspective-origin: 56px 8.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 56px 8.5px 0px; caret-color: rgb(255, 255, 255);">Contact</span>
+</h2>
+<ul class="contact" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 122px; list-style-type: none; margin-bottom: 5px; margin-top: 5px; outline-color: rgb(255, 255, 255); padding-left: 0px; text-decoration: none solid rgb(255, 255, 255); width: 232.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 116.219px 61px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 116.219px 61px 0px; caret-color: rgb(255, 255, 255);">
+<li class="icon-item clearfix" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 34px; line-height: 18.2px; list-style-type: none; margin-bottom: 10px; margin-top: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 232.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 116.219px 17px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 116.219px 17px 0px; caret-color: rgb(255, 255, 255);">
+<i class="fa fa-map-marker" style="background-color: rgb(255, 255, 255); border-color: rgb(51, 52, 56); border-radius: 1000px; color: rgb(51, 52, 56); display: block; float: left; font-family: FontAwesome; font-size: 13px; font-style: normal; height: 30px; line-height: 13px; list-style-type: none; margin: -4px 8px 8px 5px; outline-color: rgb(51, 52, 56); padding-top: 8px; text-align: center; text-decoration: none solid rgb(51, 52, 56); width: 30px; column-rule-color: rgb(51, 52, 56); -webkit-font-smoothing: antialiased; perspective-origin: 15px 15px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 15px 15px 0px; caret-color: rgb(255, 255, 255);"></i>
+Zurich
+CH
+</li>
+<li class="icon-item clearfix" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 34px; line-height: 18.2px; list-style-type: none; margin-bottom: 10px; margin-top: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 232.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 116.219px 17px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 116.219px 17px 0px; caret-color: rgb(255, 255, 255);">
+<i class="fa fa-envelope " style="background-color: rgb(255, 255, 255); border-color: rgb(51, 52, 56); border-radius: 1000px; color: rgb(51, 52, 56); display: block; float: left; font-family: FontAwesome; font-size: 13px; font-style: normal; height: 30px; line-height: 13px; list-style-type: none; margin: -4px 8px 8px 5px; outline-color: rgb(51, 52, 56); padding-top: 8px; text-align: center; text-decoration: none solid rgb(51, 52, 56); width: 30px; column-rule-color: rgb(51, 52, 56); -webkit-font-smoothing: antialiased; perspective-origin: 15px 15px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 15px 15px 0px; caret-color: rgb(255, 255, 255);"></i>
+giulian.fazio@gmail.com
+
+</li><li class="icon-item clearfix" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 34px; line-height: 18.2px; list-style-type: none; margin-bottom: 10px; margin-top: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 232.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 116.219px 17px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 116.219px 17px 0px; caret-color: rgb(255, 255, 255);">
+<i class="fa fa-phone " style="background-color: rgb(255, 255, 255); border-color: rgb(51, 52, 56); border-radius: 1000px; color: rgb(51, 52, 56); display: block; float: left; font-family: FontAwesome; font-size: 13px; font-style: normal; height: 30px; line-height: 13px; list-style-type: none; margin: -4px 8px 8px 5px; outline-color: rgb(51, 52, 56); padding-top: 8px; text-align: center; text-decoration: none solid rgb(51, 52, 56); width: 30px; column-rule-color: rgb(51, 52, 56); -webkit-font-smoothing: antialiased; perspective-origin: 15px 15px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 15px 15px 0px; caret-color: rgb(255, 255, 255);"></i>
++39 329 342 1032
+</li>
+
+</ul>
+<ul class="profiles" style="margin-top: 0px; border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 70px; list-style-type: none; margin-bottom: 5px; outline-color: rgb(255, 255, 255); padding-left: 0px; text-decoration: none solid rgb(255, 255, 255); width: 232.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 116.219px 35px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 116.219px 35px 0px; caret-color: rgb(255, 255, 255);">
+<li class="icon-item clearfix" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 70px; line-height: 18.2px; list-style-type: none; margin-bottom: 10px; margin-top: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 232.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 116.219px 35px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 116.219px 35px 0px; caret-color: rgb(255, 255, 255);">
+<i class="fa fa-linkedin " style="background-color: rgb(255, 255, 255); border-color: rgb(51, 52, 56); border-radius: 1000px; color: rgb(51, 52, 56); display: block; float: left; font-family: FontAwesome; font-size: 13px; font-style: normal; height: 30px; line-height: 13px; list-style-type: none; margin: -4px 8px 8px 5px; outline-color: rgb(51, 52, 56); padding-top: 8px; text-align: center; text-decoration: none solid rgb(51, 52, 56); width: 30px; column-rule-color: rgb(51, 52, 56); -webkit-font-smoothing: antialiased; perspective-origin: 15px 15px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 15px 15px 0px; caret-color: rgb(255, 255, 255);"></i>
+<span style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; line-height: 18.2px; list-style-type: none; outline-color: rgb(255, 255, 255); text-align: left; text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">https://www.linkedin.com/in/giulian-fazio/ </span>
+</li>
+</ul>
+</section>
+<section class="section-education" style="margin-left: 10px; border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 1264px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 632px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 632px 0px; caret-color: rgb(255, 255, 255);">
+<h2 class="title" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 47px; letter-spacing: 5px; line-height: 17.6px; margin-bottom: 0px; margin-top: 0px; outline-color: rgb(255, 255, 255); padding-bottom: 15px; padding-top: 15px; text-align: center; text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 23.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 23.5px 0px; caret-color: rgb(255, 255, 255);">
+<span class="" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); display: inline-block; font-size: 16px; font-weight: 700; height: 17px; letter-spacing: 5px; line-height: 17.6px; margin-left: 2px; outline-color: rgb(255, 255, 255); text-align: center; text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; vertical-align: middle; width: 138.922px; column-rule-color: rgb(255, 255, 255); perspective-origin: 69.4531px 8.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 69.4531px 8.5px 0px; caret-color: rgb(255, 255, 255);">Education</span>
+</h2>
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 368px; margin-bottom: 25px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 184px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 184px 0px; caret-color: rgb(255, 255, 255);">
+<div class="studyTitle" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-weight: 700; height: 62px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 31px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 31px 0px; caret-color: rgb(255, 255, 255);">
+<span class="studyType" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-weight: 700; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+Bachelor's Degree:
+</span>
+<span class="area" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-weight: 700; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+Computer Science
+</span>
+<span class="gpa" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+<span class="badge" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 10px; color: rgb(255, 255, 255); display: inline-block; font-size: 12px; font-weight: 700; height: 18px; line-height: 12px; margin-bottom: 6px; margin-top: 6px; min-width: 10px; outline-color: rgb(255, 255, 255); padding: 3px 7px; text-align: center; text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; vertical-align: middle; white-space: nowrap; width: 195.156px; column-rule-color: rgb(255, 255, 255); perspective-origin: 97.5625px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 97.5625px 9px 0px; caret-color: rgb(255, 255, 255);"> 110/110 cum laude - 4.0 (GPA) </span>
+</span>
+</div>
+
+<div class="institution" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+    <i style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Università degli Studi di Messina</i>
+</div>
+<div class="date" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-style: italic; height: 18px; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);"><i style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+<span class="startDate" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+2011
+</span>
+<span class="endDate" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+- 2014
+    </span></i>
+</div>
+<ul class="courses" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 265px; line-height: 18.2px; list-style-type: none; margin-bottom: 5px; margin-top: 5px; outline-color: rgb(255, 255, 255); padding-left: 0px; text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 132.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 132.5px 0px; caret-color: rgb(255, 255, 255);">
+<li style="margin-bottom: 13px; border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 54px; line-height: 18.2px; list-style-type: none; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 27px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 27px 0px; caret-color: rgb(255, 255, 255);" class="courses-description"><strong style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; line-height: 18.2px; list-style-type: none; outline-color: rgb(255, 255, 255); text-align: left; text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Thesis:</strong> Julia: A dynamic programming language for scientific and distributed computing</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Imperative &amp; OO Programming</li>
+
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 36px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 18px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 18px 0px; caret-color: rgb(255, 255, 255);">C, Java, SQL, Fortran, Julia, Assembly (Intel x86)</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Numerical Analysis</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Software Engineering</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Databases (Design and Security)</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Operative Systems</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 36px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 18px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 18px 0px; caret-color: rgb(255, 255, 255);">Computer Networks (with focus on Internet Network)</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 36px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 18px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 18px 0px; caret-color: rgb(255, 255, 255);">Basic Mathematical and Physical subjects</li>
+</ul></div>
+<div class="item" style="margin-bottom: 10px; border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 173px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 86.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 86.5px 0px; caret-color: rgb(255, 255, 255);">
+<div class="studyTitle" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-weight: 700; height: 72px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 36px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 36px 0px; caret-color: rgb(255, 255, 255);">
+
+<span class="area" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-weight: 700; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+Course: Functional Programming Principles in Scala
+</span>
+<span class="gpa" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+<span class="badge" style="display: block; width: 63px; background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 10px; color: rgb(255, 255, 255); font-size: 12px; font-weight: 700; height: 18px; line-height: 12px; margin-bottom: 6px; margin-top: 6px; min-width: 10px; outline-color: rgb(255, 255, 255); padding: 3px 7px; text-align: center; text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; vertical-align: middle; white-space: nowrap; column-rule-color: rgb(255, 255, 255); perspective-origin: 31.5px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 31.5px 9px 0px; caret-color: rgb(255, 255, 255);"> 100/100 </span>
+</span>
+</div>
+<div class="institution" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; height: 36px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 18px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 18px 0px; caret-color: rgb(255, 255, 255);">
+Coursera &amp; Martin Odersky, École Polytechnique Fédérale de Lausanne
+</div><div class="date" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-style: italic; height: 18px; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+<span class="startDate" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">2017-10 - 2017-11
+</span>
+
+</div><ul class="courses" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 36px; line-height: 18.2px; list-style-type: none; margin-bottom: 5px; margin-top: 5px; outline-color: rgb(255, 255, 255); padding-left: 0px; text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 18px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 18px 0px; caret-color: rgb(255, 255, 255);">
+<li class="courses-description" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: none; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);"><strong style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; line-height: 18.2px; list-style-type: none; outline-color: rgb(255, 255, 255); text-align: left; text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Summary:</strong> https://goo.gl/uEYD8D</li>
+<li class="courses-description" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: none; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);"><strong style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; line-height: 18.2px; list-style-type: none; outline-color: rgb(255, 255, 255); text-align: left; text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Certificate:</strong> https://goo.gl/74YHap</li>
+</ul>
+
+
+</div>
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 91px; margin-bottom: 25px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 45.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 45.5px 0px; caret-color: rgb(255, 255, 255);">
+<div class="studyTitle" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-weight: 700; height: 32px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 16px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 16px 0px; caret-color: rgb(255, 255, 255);">
+
+<span class="area" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-weight: 700; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Course: 
+Deep Learning &amp; TensorFlow
+</span>
+</div>
+<div class="institution" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+Udacity &amp; Google
+</div><div class="date" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-style: italic; height: 18px; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+<span class="startDate" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+2016-12
+</span>
+<span class="endDate" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+- 2017-02
+</span>
+</div><ul class="courses" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: none; margin-bottom: 5px; margin-top: 5px; outline-color: rgb(255, 255, 255); padding-left: 0px; text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+<li class="courses-description" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: none; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);"><strong style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; line-height: 18.2px; list-style-type: none; outline-color: rgb(255, 255, 255); text-align: left; text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Summary:</strong> https://goo.gl/YnpQPT</li>
+</ul>
+
+
+</div>
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 273px; margin-bottom: 25px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 136.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 136.5px 0px; caret-color: rgb(255, 255, 255);">
+<div class="studyTitle" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-weight: 700; height: 16px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 8px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 8px 0px; caret-color: rgb(255, 255, 255);">
+<span class="studyType" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-weight: 700; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+Course:
+</span>
+<span class="area" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-weight: 700; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+Mobile Apps &amp; Digital
+</span>
+</div>
+<div class="institution" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+UIIP - Biogem
+</div><div class="date" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-style: italic; height: 18px; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+<span class="startDate" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">2016-05 - 2016-07
+</span>
+
+</div><ul class="courses" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 216px; line-height: 18.2px; list-style-type: none; margin-bottom: 5px; margin-top: 5px; outline-color: rgb(255, 255, 255); padding-left: 0px; text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 108px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 108px 0px; caret-color: rgb(255, 255, 255);">
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Object Oriented Programming</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Database</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 36px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 18px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 18px 0px; caret-color: rgb(255, 255, 255);">JavaScript Client Side and App (Ajax, AngularJS, MeteorJS)</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Cross mobile platform development</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 36px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 18px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 18px 0px; caret-color: rgb(255, 255, 255);">Server Side Technologies (Java, NodeJS)</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Software Engineering and Testing</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 36px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 18px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 18px 0px; caret-color: rgb(255, 255, 255);">Teamwork and Communication Management</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 36px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 18px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 18px 0px; caret-color: rgb(255, 255, 255);">Public speaking and Effective Presentation</li>
+</ul>
+
+
+</div>
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 227px; margin-bottom: 25px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 113.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 113.5px 0px; caret-color: rgb(255, 255, 255);">
+<div class="studyTitle" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-weight: 700; height: 78px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 39px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 39px 0px; caret-color: rgb(255, 255, 255);">
+<span class="studyType" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-weight: 700; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+High School Diploma:
+</span>
+<span class="area" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-weight: 700; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+Electronics and Telecommunications
+</span>
+<span class="gpa" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+<span class="badge" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 10px; color: rgb(255, 255, 255); display: inline-block; font-size: 12px; font-weight: 700; height: 18px; line-height: 12px; margin-bottom: 6px; margin-top: 6px; min-width: 10px; outline-color: rgb(255, 255, 255); padding: 3px 7px; text-align: center; text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; vertical-align: middle; white-space: nowrap; width: 114.484px; column-rule-color: rgb(255, 255, 255); perspective-origin: 57.2344px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 57.2344px 9px 0px; caret-color: rgb(255, 255, 255);"> 97/100 - 4.0 (GPA) </span>
+</span>
+</div>
+<div class="institution" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+ITIS G. Marconi - Messina
+</div><div class="date" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 12px; font-style: italic; height: 18px; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+<span class="startDate" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+2006
+</span>
+<span class="endDate" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; font-style: italic; line-height: 16.8px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">
+- 2011
+</span>
+</div><ul class="courses" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 108px; line-height: 18.2px; list-style-type: none; margin-bottom: 5px; margin-top: 5px; outline-color: rgb(255, 255, 255); padding-left: 0px; text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 54px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 54px 0px; caret-color: rgb(255, 255, 255);">
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Electronics</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Circuit Design</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Automation Systems</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Telecommunications</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Microcontroller Programming</li>
+<li style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; list-style-type: circle; margin-left: 15px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 207.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 103.719px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 103.719px 9px 0px; caret-color: rgb(255, 255, 255);">Z-80 Programming (Assembly)</li>
+</ul>
+
+
+</div>
+</section>
+<section class="section-skills" style="margin-left: 10px; border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 2197px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 1098.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 1098.5px 0px; caret-color: rgb(255, 255, 255);">
+<h2 class="title" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 47px; letter-spacing: 5px; line-height: 17.6px; margin-bottom: 0px; margin-top: 0px; outline-color: rgb(255, 255, 255); padding-bottom: 15px; padding-top: 15px; text-align: center; text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 23.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 23.5px 0px; caret-color: rgb(255, 255, 255);">
+<span class="" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); display: inline-block; font-size: 16px; font-weight: 700; height: 17px; letter-spacing: 5px; line-height: 17.6px; margin-left: 2px; outline-color: rgb(255, 255, 255); text-align: center; text-decoration: none solid rgb(255, 255, 255); text-transform: uppercase; vertical-align: middle; width: 86.8906px; column-rule-color: rgb(255, 255, 255); perspective-origin: 43.4375px 8.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 43.4375px 8.5px 0px; caret-color: rgb(255, 255, 255);">Skills</span>
+</h2>
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 64px; margin-bottom: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 32px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 32px 0px; caret-color: rgb(255, 255, 255);">
+<div class="name" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+Java Ecosystem
+</div>
+<div class="keywords" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 46px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 23px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 23px 0px; caret-color: rgb(255, 255, 255);">
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Java8</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Tomcat</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Spring</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Hibernate</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">jUnits</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Maven</span>
+</div>
+</div>
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 63px; margin-bottom: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 31.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 31.5px 0px; caret-color: rgb(255, 255, 255);">
+<div class="name" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+Programming Paradigms
+</div>
+<div class="keywords" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 45px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 22.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 22.5px 0px; caret-color: rgb(255, 255, 255);">
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Imperative Programming</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">OOP</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Functional Programming</span>
+</div>
+</div>
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 63px; margin-bottom: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 31.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 31.5px 0px; caret-color: rgb(255, 255, 255);">
+<div class="name" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+Databases
+</div>
+<div class="keywords" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 45px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 22.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 22.5px 0px; caret-color: rgb(255, 255, 255);">
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Relational DB</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">SQL</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Oracle</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">MySQL</span>
+</div>
+</div>
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 41px; margin-bottom: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 20.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 20.5px 0px; caret-color: rgb(255, 255, 255);">
+<div class="name" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+CVS
+</div>
+<div class="keywords" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 23px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 11.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 11.5px 0px; caret-color: rgb(255, 255, 255);">
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Git</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">SVN</span>
+</div>
+</div><div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 18px; margin-bottom: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+<div class="name" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+Agile SCRUM
+</div>
+</div><div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 64px; margin-bottom: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 32px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 32px 0px; caret-color: rgb(255, 255, 255);">
+<div class="name" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+Deep Learning
+</div>
+<div class="keywords" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 46px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 23px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 23px 0px; caret-color: rgb(255, 255, 255);">
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Neural Networks</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Genetic Algorithms</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">TensorFlow</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Apache Spark</span>
+</div>
+</div>
+
+
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 18px; margin-bottom: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+<div class="name" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+Magnolia CMS
+</div>
+</div>
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 41px; margin-bottom: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 20.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 20.5px 0px; caret-color: rgb(255, 255, 255);">
+<div class="name" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+Other Languages
+</div>
+<div class="keywords" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 23px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 11.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 11.5px 0px; caret-color: rgb(255, 255, 255);">
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Scala</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">C</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Gosu</span>
+</div>
+</div>
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 41px; margin-bottom: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 20.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 20.5px 0px; caret-color: rgb(255, 255, 255);">
+<div class="name" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+Javascript
+</div>
+<div class="keywords" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 23px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 11.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 11.5px 0px; caret-color: rgb(255, 255, 255);">
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Ajax</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">JQuery</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Angular</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">NodeJS</span>
+</div>
+</div>
+<div class="item" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 41px; margin-bottom: 10px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 20.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 20.5px 0px; caret-color: rgb(255, 255, 255);">
+<div class="name" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 13px; height: 18px; line-height: 18.2px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 9px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 9px 0px; caret-color: rgb(255, 255, 255);">
+Other Skills
+</div>
+<div class="keywords" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 23px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 11.5px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 11.5px 0px; caret-color: rgb(255, 255, 255);">
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Regex</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Freemarker templates</span>
+</div>
+</div><p style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); height: 1596px; outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); width: 222.438px; column-rule-color: rgb(255, 255, 255); perspective-origin: 111.219px 798px; -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); transform-origin: 111.219px 798px 0px; caret-color: rgb(255, 255, 255);">
+<br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">&lt;<br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">&lt;<br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);"><br style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); outline-color: rgb(255, 255, 255); text-decoration: none solid rgb(255, 255, 255); column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">&lt;
+</p>
+</section>
+</div>
+<div class="col-xs-8 content" style="background-color: rgb(255, 255, 255); bottom: 0px; float: left; height: 102617px; left: 0px; margin-bottom: -99999px; min-height: 1px; padding: 32px 17px 99999px 50px; position: relative; right: 0px; top: 0px; width: 544.922px; perspective-origin: 272.453px 51308.5px; transform-origin: 272.453px 51308.5px 0px;">
+<section class="section-name" style="height: 111px; margin-bottom: 100px; margin-top: 50px; width: 477.922px; perspective-origin: 238.953px 55.5px; transform-origin: 238.953px 55.5px 0px;">
+<h1 style="border-color: rgb(60, 60, 60); color: rgb(60, 60, 60); font-size: 40px; font-weight: 700; height: 44px; letter-spacing: 10px; line-height: 44px; outline-color: rgb(60, 60, 60); text-align: center; text-decoration: none solid rgb(60, 60, 60); text-transform: uppercase; width: 477.922px; column-rule-color: rgb(60, 60, 60); perspective-origin: 238.953px 22px; -webkit-text-emphasis-color: rgb(60, 60, 60); -webkit-text-fill-color: rgb(60, 60, 60); -webkit-text-stroke-color: rgb(60, 60, 60); transform-origin: 238.953px 22px 0px; caret-color: rgb(60, 60, 60);">Giulian Fazio</h1>
+<h2 style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 16px; font-weight: 700; height: 17px; letter-spacing: 5px; line-height: 17.6px; margin-top: 50px; outline-color: rgb(109, 109, 109); text-align: center; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; width: 477.922px; column-rule-color: rgb(109, 109, 109); perspective-origin: 238.953px 8.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 238.953px 8.5px 0px; caret-color: rgb(109, 109, 109);">Software Engineer</h2>
+</section>
+<section class="section-summary" style="font-size: 13px; height: 209px; line-height: 18.2px; text-align: justify; width: 477.922px; perspective-origin: 238.953px 104.5px; transform-origin: 238.953px 104.5px 0px;">
+<h2 class="title" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 16px; font-weight: 700; height: 47px; letter-spacing: 5px; line-height: 17.6px; margin-bottom: 0px; margin-top: 0px; outline-color: rgb(109, 109, 109); padding-bottom: 15px; padding-top: 15px; text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; width: 477.922px; column-rule-color: rgb(109, 109, 109); perspective-origin: 238.953px 23.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 238.953px 23.5px 0px; caret-color: rgb(109, 109, 109);">
+<span class="" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); display: inline-block; font-size: 16px; font-weight: 700; height: 17px; letter-spacing: 5px; line-height: 17.6px; margin-left: 2px; outline-color: rgb(109, 109, 109); text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; vertical-align: middle; width: 117.078px; column-rule-color: rgb(109, 109, 109); perspective-origin: 58.5313px 8.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 58.5313px 8.5px 0px; caret-color: rgb(109, 109, 109);">Summary</span>
+</h2><strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">I am a Software Engineer with ~3 years of working experience (mainly in Java),</strong> as well as a certified Magnolia Associate Developer. I have an educational background in electronics, but have since then specialized in software developing and acquired many skills, both during my university studies and in my free time.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;">Programming is not just something I do, it is something I deeply love doing. I thrive on developing original ideas and fixing problems, all the while growing professionally and learning new technologies every day. That is why I consider myself very lucky whenever I have the chance to work in close contact with people that share my same passion.</section>
+<section class="section-work" style="height: 1266px; width: 477.922px; perspective-origin: 238.953px 633px; transform-origin: 238.953px 633px 0px;">
+<h2 class="title" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 16px; font-weight: 700; height: 47px; letter-spacing: 5px; line-height: 17.6px; margin-bottom: 0px; margin-top: 0px; outline-color: rgb(109, 109, 109); padding-bottom: 15px; padding-top: 15px; text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; width: 477.922px; column-rule-color: rgb(109, 109, 109); perspective-origin: 238.953px 23.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 238.953px 23.5px 0px; caret-color: rgb(109, 109, 109);">
+<span class="" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); display: inline-block; font-size: 16px; font-weight: 700; height: 17px; letter-spacing: 5px; line-height: 17.6px; margin-left: 2px; outline-color: rgb(109, 109, 109); text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; vertical-align: middle; width: 153.141px; column-rule-color: rgb(109, 109, 109); perspective-origin: 76.5625px 8.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 76.5625px 8.5px 0px; caret-color: rgb(109, 109, 109);">Experience</span>
+</h2>
+<div class="item" style="margin-bottom: 33px; height: 836px; width: 477.922px; perspective-origin: 238.953px 418px; transform-origin: 238.953px 418px 0px;">
+<div class="position" style="border-color: rgb(51, 52, 56); color: rgb(51, 52, 56); font-size: 12px; font-weight: 700; height: 16px; line-height: 16.8px; outline-color: rgb(51, 52, 56); text-decoration: none solid rgb(51, 52, 56); text-transform: uppercase; width: 477.922px; column-rule-color: rgb(51, 52, 56); perspective-origin: 238.953px 8px; -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); transform-origin: 238.953px 8px 0px; caret-color: rgb(51, 52, 56);">
+Software Engineer
+</div>
+<div class="company" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; height: 28px; line-height: 18.2px; outline-color: rgb(109, 109, 109); padding-bottom: 5px; padding-top: 5px; text-decoration: none solid rgb(109, 109, 109); width: 477.922px; column-rule-color: rgb(109, 109, 109); perspective-origin: 238.953px 14px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 238.953px 14px 0px; caret-color: rgb(109, 109, 109);">
+<span class="name" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+ti&amp;m AG
+</span>
+<span class="website" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+| www.ti8m.ch
+</span>
+<span class="date" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+|
+<span class="startDate" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+Aug 2016
+</span>
+<span class="endDate" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+ - Present
+</span>
+</span>
+</div>
+<div class="summary" style="height: 792px; text-align: justify; width: 477.922px; perspective-origin: 238.953px 396px; transform-origin: 238.953px 396px 0px;">
+<p style="font-size: 13px; height: 792px; line-height: 18.2px; text-align: justify; width: 477.922px; perspective-origin: 238.953px 396px; transform-origin: 238.953px 396px 0px;"><strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Project</strong>: UBS Connections (Jive)<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Involved Parties</strong>: ti&amp;m AG, UBS<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Working Period</strong>: 2017-07 - Present <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"><strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Description</strong>: Version upgrades, enhancement of the product, adding of extensions for business customers and integration of numerous UBS systems in Connections.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Activities</strong>: Theaming in Jive, developing Jive Plugins and Tiles, task estimation, writing SQL scripts (also for production environment), writing documentation.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Keywords and technologies</strong>: Jive, REST, Docker, Java, Spring, Oracle, SQL, Git, Freemarker templates, Soy templates, Javascript, JQuery, HTML, CSS.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Project</strong>: Floripa - Internal Corporate Website<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Involved Parties</strong>: ti&amp;m AG<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Working Period</strong>: 2017-10 - Present <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"><strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Description</strong>: Designing and Development of the new ti&amp;m corporate website.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Activities</strong>: Magnolia backend development, designing of Magnolia components, configuration, frontend integration, writing of documentation, testing.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Keywords and technologies</strong>: Magnolia CMS, Git, Java, JCR, LDAP, Maven, Tomcat, Freemarker templates, Javascript, JQuery.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Project</strong>: Papyrus - Internal Blog, Products website<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Involved Parties</strong>: ti&amp;m AG<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Working Period</strong>: 2016-10 - 2017-08 <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"><strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Description</strong>: Implementation of new functionalities and new design for the ti&amp;m blog. Building of the new ti&amp;m products website.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Activities</strong>: Magnolia backend development, designing of Magnolia components, configuration, frontend integration, writing of documentation, testing, deployment.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Keywords and technologies</strong>: Magnolia CMS, Git, Java, JCR, Maven, Tomcat, Freemarker templates, Javascript, JQuery.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Project</strong>: BKB Virtuelle Filiale<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Involved Parties</strong>: ti&amp;m AG, Basler Kantonalbank<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Working Period</strong>: 2016-08 - 2016-10 <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"><strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Description</strong>: Implementation of frontend web components and interfaces for a customized version of the ti&amp;m channel suite.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Activities</strong>: Implementation of various micro services, unit tests, integration tests.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Keywords and technologies</strong>: AngularJS, Javascript (ECMAScript 6), Git, Gulp, Maven, Java, Docker, CDK (Channel suite Development Kit).<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Project</strong>: Web App for elaboration of big data <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Involved Parties</strong>: UIIP - Biogem, ti&amp;m AG <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Description</strong>: Development of a web app for extracting and analyzing email data (big data) and visualizing the results by various charts and graphs. <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Activities</strong>: Analysis, planning, backend programming, testing. <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"> <strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Keywords and technologies</strong>: Java, Apache Spark, Spring, Maven, Git.</p>
+</div>
+</div>
+<div class="item" style="height: 350px; margin-bottom: 25px; width: 477.922px; perspective-origin: 238.953px 175px; transform-origin: 238.953px 175px 0px;">
+<div class="position" style="border-color: rgb(51, 52, 56); color: rgb(51, 52, 56); font-size: 12px; font-weight: 700; height: 16px; line-height: 16.8px; outline-color: rgb(51, 52, 56); text-decoration: none solid rgb(51, 52, 56); text-transform: uppercase; width: 477.922px; column-rule-color: rgb(51, 52, 56); perspective-origin: 238.953px 8px; -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); transform-origin: 238.953px 8px 0px; caret-color: rgb(51, 52, 56);">
+Java and Gosu Developer
+</div>
+<div class="company" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; height: 28px; line-height: 18.2px; outline-color: rgb(109, 109, 109); padding-bottom: 5px; padding-top: 5px; text-decoration: none solid rgb(109, 109, 109); width: 477.922px; column-rule-color: rgb(109, 109, 109); perspective-origin: 238.953px 14px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 238.953px 14px 0px; caret-color: rgb(109, 109, 109);">
+<span class="name" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+GFT
+</span>
+<span class="website" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+| www.gft.com
+</span>
+<span class="date" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+|
+<span class="startDate" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+Jan 2015
+</span>
+<span class="endDate" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+- Apr 2016
+</span>
+<span class="diffDate" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+(1 year 3 months)
+</span>
+</span>
+</div>
+<div class="summary" style="height: 306px; text-align: justify; width: 477.922px; perspective-origin: 238.953px 153px; transform-origin: 238.953px 153px 0px;">
+<p style="font-size: 13px; height: 306px; line-height: 18.2px; text-align: justify; width: 477.922px; perspective-origin: 238.953px 153px; transform-origin: 238.953px 153px 0px;">I worked in a 2-year project named Galileo Claim Center, commissioned by Ernst &amp; Young and Zürich Insurance. The goal of the project was to build an Insurance Management System by customizing the GuideWire/ClaimCenter platform. The project was carried out in an Agile SCRUM context, which allowed me to get in touch directly with analysts and customers. <br style="font-size: 13px; line-height: 18.2px; text-align: justify;">Following are some of the tasks and responsibilities I was given: <br style="font-size: 13px; line-height: 18.2px; text-align: justify;"><br style="font-size: 13px; line-height: 18.2px; text-align: justify;">&nbsp;• Personal time and task management.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;">&nbsp;• Taking charge of certain aspects and discussing them directly with customers. <br style="font-size: 13px; line-height: 18.2px; text-align: justify;">&nbsp;• Designing and developing new ClaimCenter components using Gosu. <br style="font-size: 13px; line-height: 18.2px; text-align: justify;">&nbsp;• Writing batch processes with Spring Batch.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;">&nbsp;• Writing Unit tests. <br style="font-size: 13px; line-height: 18.2px; text-align: justify;">&nbsp;• Writing SQL scripts.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;">&nbsp;• Writing technical documentation.<br style="font-size: 13px; line-height: 18.2px; text-align: justify;"><br style="font-size: 13px; line-height: 18.2px; text-align: justify;"><strong style="font-size: 13px; line-height: 18.2px; text-align: justify;">Keywords and technologies</strong>: Agile SCRUM, Gosu, Java, SVN, Maven, Spring, Spring Boot, Spring Batch, Guidewire, ClaimCenter, jUnit, gUnit.</p>
+</div>
+</div>
+</section>
+<section class="section-volunteer" style="height: 127px; width: 477.922px; perspective-origin: 238.953px 63.5px; transform-origin: 238.953px 63.5px 0px;">
+<h2 class="title" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 16px; font-weight: 700; height: 47px; letter-spacing: 5px; line-height: 17.6px; margin-bottom: 0px; margin-top: 0px; outline-color: rgb(109, 109, 109); padding-bottom: 15px; padding-top: 15px; text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; width: 477.922px; column-rule-color: rgb(109, 109, 109); perspective-origin: 238.953px 23.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 238.953px 23.5px 0px; caret-color: rgb(109, 109, 109);">
+<span class="" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); display: inline-block; font-size: 16px; font-weight: 700; height: 17px; letter-spacing: 5px; line-height: 17.6px; margin-left: 2px; outline-color: rgb(109, 109, 109); text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; vertical-align: middle; width: 143.672px; column-rule-color: rgb(109, 109, 109); perspective-origin: 71.8281px 8.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 71.8281px 8.5px 0px; caret-color: rgb(109, 109, 109);">Volunteer</span>
+</h2>
+<div class="item" style="height: 80px; margin-bottom: 25px; width: 477.922px; perspective-origin: 238.953px 40px; transform-origin: 238.953px 40px 0px;">
+<div class="position" style="border-color: rgb(51, 52, 56); color: rgb(51, 52, 56); font-size: 12px; font-weight: 700; height: 16px; line-height: 16.8px; outline-color: rgb(51, 52, 56); text-decoration: none solid rgb(51, 52, 56); text-transform: uppercase; width: 477.922px; column-rule-color: rgb(51, 52, 56); perspective-origin: 238.953px 8px; -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); transform-origin: 238.953px 8px 0px; caret-color: rgb(51, 52, 56);">
+Co-coordinator of a free course on C/C++
+</div>
+<div class="company" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; height: 28px; line-height: 18.2px; outline-color: rgb(109, 109, 109); padding-bottom: 5px; padding-top: 5px; text-decoration: none solid rgb(109, 109, 109); width: 477.922px; column-rule-color: rgb(109, 109, 109); perspective-origin: 238.953px 14px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 238.953px 14px 0px; caret-color: rgb(109, 109, 109);">
+<span class="name" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+Officina delle idee, Messina
+</span>
+<span class="date" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+| <span class="startDate" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+Jan 2012
+</span>
+<span class="endDate" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+- Mar 2012
+</span>
+<span class="diffDate" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 13px; font-weight: 700; line-height: 18.2px; outline-color: rgb(109, 109, 109); text-decoration: none solid rgb(109, 109, 109); column-rule-color: rgb(109, 109, 109); -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); caret-color: rgb(109, 109, 109);">
+(2 months)
+</span>
+</span>
+</div>
+<div class="summary" style="font-style: italic; height: 36px; text-align: justify; width: 477.922px; perspective-origin: 238.953px 18px; transform-origin: 238.953px 18px 0px;">
+<p style="font-style: normal; font-size: 13px; height: 36px; line-height: 18.2px; text-align: justify; width: 477.922px; perspective-origin: 238.953px 18px; transform-origin: 238.953px 18px 0px;">Course manager, teacher of the basics of "C Language" and writer of educational materials.</p>
+</div>
+</div>
+</section>
+<section class="section-awards" style="height: 137px; width: 477.922px; perspective-origin: 238.953px 68.5px; transform-origin: 238.953px 68.5px 0px;">
+<h2 class="title" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 16px; font-weight: 700; height: 47px; letter-spacing: 5px; line-height: 17.6px; margin-bottom: 0px; margin-top: 0px; outline-color: rgb(109, 109, 109); padding-bottom: 15px; padding-top: 15px; text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; width: 477.922px; column-rule-color: rgb(109, 109, 109); perspective-origin: 238.953px 23.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 238.953px 23.5px 0px; caret-color: rgb(109, 109, 109);">
+<span class="" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); display: inline-block; font-size: 16px; font-weight: 700; height: 17px; letter-spacing: 5px; line-height: 17.6px; margin-left: 2px; outline-color: rgb(109, 109, 109); text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; vertical-align: middle; width: 100.234px; column-rule-color: rgb(109, 109, 109); perspective-origin: 50.1094px 8.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 50.1094px 8.5px 0px; caret-color: rgb(109, 109, 109);">Awards</span>
+</h2>
+<ul style="padding-left: 0px; height: 90px; width: 477.922px; perspective-origin: 238.953px 45px; transform-origin: 238.953px 45px 0px;">
+<li class="item" style="list-style-type: none; height: 90px; width: 477.922px; perspective-origin: 238.953px 45px; transform-origin: 238.953px 45px 0px;">
+<div class="title" style="font-size: 13px; border-color: rgb(51, 52, 56); color: rgb(51, 52, 56); font-weight: 700; height: 36px; line-height: 18.2px; list-style-type: none; outline-color: rgb(51, 52, 56); text-align: left; text-decoration: none solid rgb(51, 52, 56); width: 477.922px; column-rule-color: rgb(51, 52, 56); perspective-origin: 238.953px 18px; -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); transform-origin: 238.953px 18px 0px; caret-color: rgb(51, 52, 56);">
+Onore al Merito: Premio alla Laurea (Top student prize)
+<span class="date" style="color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); font-size: 13px; line-height: 18.2px; list-style-type: none; outline-color: rgb(0, 0, 0); text-align: left; text-decoration: none solid rgb(0, 0, 0); column-rule-color: rgb(0, 0, 0); -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); caret-color: rgb(51, 52, 56);">
+| Feb 2015
+</span>
+<span class="awarder" style="color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); font-size: 13px; line-height: 18.2px; list-style-type: none; outline-color: rgb(0, 0, 0); text-align: left; text-decoration: none solid rgb(0, 0, 0); column-rule-color: rgb(0, 0, 0); -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); caret-color: rgb(51, 52, 56);">
+| Università degli Studi di Messina
+</span>
+</div>
+<div class="summary" style="height: 54px; list-style-type: none; text-align: justify; width: 477.922px; perspective-origin: 238.953px 27px; transform-origin: 238.953px 27px 0px;">
+<p style="font-size: 13px; height: 54px; line-height: 18.2px; list-style-type: none; text-align: justify; width: 477.922px; perspective-origin: 238.953px 27px; transform-origin: 238.953px 27px 0px;">Prize awarded to the top ten students of the Department of Science and Technology. <br style="font-size: 13px; line-height: 18.2px; list-style-type: none; text-align: justify;">Ref: goo.gl/8iWZyK (search for "Fazio Giulian")</p>
+</div>
+</li>
+</ul>
+</section>
+<section class="section-languages" style="height: 89px; width: 477.922px; perspective-origin: 238.953px 44.5px; transform-origin: 238.953px 44.5px 0px;">
+<h2 class="title" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 16px; font-weight: 700; height: 47px; letter-spacing: 5px; line-height: 17.6px; margin-bottom: 0px; margin-top: 0px; outline-color: rgb(109, 109, 109); padding-bottom: 15px; padding-top: 15px; text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; width: 477.922px; column-rule-color: rgb(109, 109, 109); perspective-origin: 238.953px 23.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 238.953px 23.5px 0px; caret-color: rgb(109, 109, 109);">
+<span class="" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); display: inline-block; font-size: 16px; font-weight: 700; height: 17px; letter-spacing: 5px; line-height: 17.6px; margin-left: 2px; outline-color: rgb(109, 109, 109); text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; vertical-align: middle; width: 147.234px; column-rule-color: rgb(109, 109, 109); perspective-origin: 73.6094px 8.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 73.6094px 8.5px 0px; caret-color: rgb(109, 109, 109);">Languages</span>
+</h2>
+<ul style="height: 42px; width: 477.922px; perspective-origin: 238.953px 21px; transform-origin: 238.953px 21px 0px;">
+<li class="item" style="width: 437.922px; perspective-origin: 218.953px 10.5px; transform-origin: 218.953px 10.5px 0px;">
+<div class="language" style="border-color: rgb(51, 52, 56); color: rgb(51, 52, 56); font-size: 13px; font-weight: 700; height: 21px; line-height: 18.2px; outline-color: rgb(51, 52, 56); text-align: left; text-decoration: none solid rgb(51, 52, 56); width: 437.922px; column-rule-color: rgb(51, 52, 56); perspective-origin: 218.953px 10.5px; -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); transform-origin: 218.953px 10.5px 0px; caret-color: rgb(51, 52, 56);">
+Italian
+<span class="fluency" style="font-size: 13px; line-height: 18.2px; text-align: left; -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); caret-color: rgb(51, 52, 56);">
+| <i style="border-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-size: 13px; line-height: 18.2px; outline-color: rgb(0, 0, 0); text-align: left; text-decoration: none solid rgb(0, 0, 0); column-rule-color: rgb(0, 0, 0); -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); caret-color: rgb(51, 52, 56);">Native Speaker</i>
+</span>
+</div>
+</li>
+<li class="item" style="width: 437.922px; perspective-origin: 218.953px 10.5px; transform-origin: 218.953px 10.5px 0px;">
+<div class="language" style="border-color: rgb(51, 52, 56); color: rgb(51, 52, 56); font-size: 13px; font-weight: 700; height: 21px; line-height: 18.2px; outline-color: rgb(51, 52, 56); text-align: left; text-decoration: none solid rgb(51, 52, 56); width: 437.922px; column-rule-color: rgb(51, 52, 56); perspective-origin: 218.953px 10.5px; -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); transform-origin: 218.953px 10.5px 0px; caret-color: rgb(51, 52, 56);">
+English
+<span class="fluency" style="font-size: 13px; line-height: 18.2px; text-align: left; -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); caret-color: rgb(51, 52, 56);">| <i style="border-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-size: 13px; line-height: 18.2px; outline-color: rgb(0, 0, 0); text-align: left; text-decoration: none solid rgb(0, 0, 0); column-rule-color: rgb(0, 0, 0); -webkit-text-emphasis-color: rgb(51, 52, 56); -webkit-text-fill-color: rgb(51, 52, 56); -webkit-text-stroke-color: rgb(51, 52, 56); caret-color: rgb(51, 52, 56);">Professional working proficiency</i></span>
+</div>
+</li>
+</ul>
+</section>
+<section class="section-interests" style="height: 197px; width: 477.922px; perspective-origin: 238.953px 98.5px; transform-origin: 238.953px 98.5px 0px;">
+<h2 class="title" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); font-size: 16px; font-weight: 700; height: 47px; letter-spacing: 5px; line-height: 17.6px; margin-bottom: 0px; margin-top: 0px; outline-color: rgb(109, 109, 109); padding-bottom: 15px; padding-top: 15px; text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; width: 477.922px; column-rule-color: rgb(109, 109, 109); perspective-origin: 238.953px 23.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 238.953px 23.5px 0px; caret-color: rgb(109, 109, 109);">
+<span class="" style="border-color: rgb(109, 109, 109); color: rgb(109, 109, 109); display: inline-block; font-size: 16px; font-weight: 700; height: 17px; letter-spacing: 5px; line-height: 17.6px; margin-left: 2px; outline-color: rgb(109, 109, 109); text-align: left; text-decoration: none solid rgb(109, 109, 109); text-transform: uppercase; vertical-align: middle; width: 134.797px; column-rule-color: rgb(109, 109, 109); perspective-origin: 67.3906px 8.5px; -webkit-text-emphasis-color: rgb(109, 109, 109); -webkit-text-fill-color: rgb(109, 109, 109); -webkit-text-stroke-color: rgb(109, 109, 109); transform-origin: 67.3906px 8.5px 0px; caret-color: rgb(109, 109, 109);">Interests</span>
+</h2>
+<ul style="height: 142px; width: 477.922px; perspective-origin: 238.953px 71px; transform-origin: 238.953px 71px 0px;">
+<li class="item" style="height: 64px; line-height: 19px; margin-bottom: 8px; margin-top: 8px; width: 437.922px; perspective-origin: 218.953px 32px; transform-origin: 218.953px 32px 0px;">
+<div class="name" style="font-size: 13px; height: 20px; line-height: 19px; text-align: left; width: 437.922px; perspective-origin: 218.953px 10px; transform-origin: 218.953px 10px 0px;">
+Programming
+</div>
+<div class="keywords" style="height: 44px; line-height: 19px; text-align: left; width: 437.922px; perspective-origin: 218.953px 22px; transform-origin: 218.953px 22px 0px;">
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Deep Learning</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Neural Networks</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Genetic Algorithms</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Functional Programming</span>
+</div>
+</li>
+<li class="item" style="height: 42px; line-height: 19px; margin-bottom: 8px; margin-top: 8px; width: 437.922px; perspective-origin: 218.953px 21px; transform-origin: 218.953px 21px 0px;">
+<div class="name" style="font-size: 13px; height: 20px; line-height: 19px; text-align: left; width: 437.922px; perspective-origin: 218.953px 10px; transform-origin: 218.953px 10px 0px;">
+Games
+</div>
+<div class="keywords" style="height: 22px; line-height: 19px; text-align: left; width: 437.922px; perspective-origin: 218.953px 11px; transform-origin: 218.953px 11px 0px;">
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Role-playing Games</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Board Games</span>
+<span class="label label-default" style="background-color: rgb(119, 119, 119); border-color: rgb(255, 255, 255); border-radius: 2.75px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 22px; outline-color: rgb(255, 255, 255); padding: 2.2px 6.6px 3.3px; text-align: center; text-decoration: none solid rgb(255, 255, 255); white-space: nowrap; column-rule-color: rgb(255, 255, 255); -webkit-text-emphasis-color: rgb(255, 255, 255); -webkit-text-fill-color: rgb(255, 255, 255); -webkit-text-stroke-color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">Video Games</span>
+</div>
+</li>
+<li class="item" style="height: 20px; line-height: 19px; margin-bottom: 8px; margin-top: 8px; width: 437.922px; perspective-origin: 218.953px 10px; transform-origin: 218.953px 10px 0px;">
+<div class="name" style="font-size: 13px; height: 20px; line-height: 19px; text-align: left; width: 437.922px; perspective-origin: 218.953px 10px; transform-origin: 218.953px 10px 0px;">
+Puzzles and Riddles
+</div>
+</li>
+<ul style="list-style-type: circle; margin-bottom: 0px; width: 437.922px; perspective-origin: 218.953px 0px; transform-origin: 218.953px 0px 0px;">
+</ul></ul></section>
+</div>
+</div>
+<script src="/cdn-cgi/scripts/84a23a00/cloudflare-static/email-decode.min.js"></script>
+
+</div></body>
+</html>
