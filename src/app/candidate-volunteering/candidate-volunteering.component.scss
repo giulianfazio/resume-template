@@ -2,7 +2,7 @@
 
 $sub-head-margin-bottom: 0.2em;
 
-.expItem-role {
+.volunteerItem-position {
   @extend .h3;
   // color: rgb(51, 52, 56);
   margin-top: 1.4em;
@@ -10,11 +10,11 @@ $sub-head-margin-bottom: 0.2em;
   margin-bottom: $sub-head-margin-bottom;
 }
 
-.expItem-quickInfo {
+.volunteerItem-quickInfo {
   font-weight: bold;
-  margin-bottom: $sub-head-margin-bottom + 0.5em;
+  margin-bottom: $sub-head-margin-bottom + 0.4em;
 }
 
-.expItem {
+.volunteerItem {
   margin-bottom: 3em;
 }

@@ -1,0 +1,26 @@
+<div class="awards-section content-section">
+  <div class="section-head">
+      AWARDS
+  </div>
+  <div class="section-body">
+    <div
+        *ngFor="let award of awards"
+        class="award"
+        >
+      <div
+          class="award-quickInfo"
+          >
+          {{award.title}} |
+          {{award.date}} |
+          {{award.awarder}}
+      </div>
+      <div
+          class="award-summary"
+          [innerHTML]=award.summary
+          >
+      </div>
+
+    </div>
+
+  </div>
+</div>

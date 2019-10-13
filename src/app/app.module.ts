@@ -11,6 +11,9 @@ import { CandidateSummaryComponent } from './candidate-summary/candidate-summary
 import { CandidateExperienceComponent } from './candidate-experience/candidate-experience.component';
 import { CandidateSkillsComponent } from './candidate-skills/candidate-skills.component';
 import { CandidateInterestsComponent } from './candidate-interests/candidate-interests.component';
+import { CandidateVolunteeringComponent } from './candidate-volunteering/candidate-volunteering.component';
+import { CandidateAwardsComponent } from './candidate-awards/candidate-awards.component';
+import { CandidateLanguagesComponent } from './candidate-languages/candidate-languages.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { CandidateInterestsComponent } from './candidate-interests/candidate-int
     CandidateSummaryComponent,
     CandidateExperienceComponent,
     CandidateSkillsComponent,
-    CandidateInterestsComponent
+    CandidateInterestsComponent,
+    CandidateVolunteeringComponent,
+    CandidateAwardsComponent,
+    CandidateLanguagesComponent
   ],
   imports: [
     BrowserModule,
