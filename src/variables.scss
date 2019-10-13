@@ -1,9 +1,32 @@
 // Global
 $elegant-black: rgb(51, 52, 56);
 $side-background-color: rgb(0, 51, 102);
-$highlight-oval-color: rgb(147, 147, 147);
-$default-font-size: 13px;
+$default-font-size: 16px;
+$default-letter-spacing: 0.5px; //make it relative
+
+// Page
+$page-width: 956.5px;
+$side-column-width: 312px;
+
+// UTILITY
+$h1-font-size: $default-font-size * 1.92;
+$h1-letter-spacing: 0.3em;
+$h1-font-weight: 700;
+
+$h2-font-size: $default-font-size * 1.23;
+$h2-letter-spacing: 0.3em;
+$h2-font-weight: 700;
+
+$h3-font-size: $default-font-size * 0.93;
+$h3-font-weight: 700;
+
+$highlight-oval-bg-color: rgb(147, 147, 147);
+$highlight-oval-font-size: 13.5px;
 
 // Contacts
-$contact-icon-font-size: 14px;
+$contact-icon-font-size: $default-font-size;
 $contact-icon-box-side: 30px;
+
+// Non classified components
+$candidate-name-font-color: rgb(60, 60, 60);
+$candidate-role-font-color: rgb(43, 37, 37);

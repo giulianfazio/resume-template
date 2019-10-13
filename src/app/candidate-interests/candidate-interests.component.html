@@ -1,0 +1,21 @@
+<div class="interests-section content-section">
+  <div class="section-head">
+    Interests
+  </div>
+  <div class="section-body">
+      <ul>
+        <li *ngFor='let interest of interests' class="interest">
+          <div class="interest-name">{{interest.name}}</div>
+          <div class="interest-keywords keywords-container" *ngIf="interest.keywords && interest.keywords.length >0">
+            <span
+                class="interest-keyword highlight-oval"
+                *ngFor="let keyword of interest.keywords"
+            >
+              {{keyword}}
+            </span>
+          </div>
+
+        </li>
+      </ul>
+  </div>
+</div>

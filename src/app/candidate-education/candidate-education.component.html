@@ -3,14 +3,14 @@
     EDUCATION
   </div>
   <div class="section-body">
-    <div *ngFor='let eduItem of educationList'>
+    <div class='educationItem' *ngFor='let eduItem of educationList'>
       <div
         class='educationItem-head'
         [innerHTML]="eduItem.head"
       >
       </div>
       <div *ngIf='eduItem.grade'
-        class='educationItem-grade highlight-oval'
+        class='educationItem-grade'
         [innerHTML]="eduItem.grade"
       ></div>
       <div class='educationItemItem-subtHead'>

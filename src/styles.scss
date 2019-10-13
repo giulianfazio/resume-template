@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import './fontawesome/css/all.min.css';
+// @import './fontawesome/css/all.min.css';
 
 @import './variables.scss';
 
@@ -16,16 +16,47 @@ div {
   text-align: center;
 }
 
+.keywords-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.h1 {
+  font-size: $h1-font-size;
+  font-weight: $h1-font-weight;
+  letter-spacing: $h1-letter-spacing;
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-size: $h2-font-size;
+  font-weight: $h2-font-weight;
+  letter-spacing: $h2-letter-spacing;
+  text-transform: uppercase;
+}
+
+.h3 {
+  font-size: $h3-font-size;
+  font-weight: $h3-font-weight;
+  line-height: $h3-font-size + 5px;
+  letter-spacing: 0.5px; // TODO make it relative
+  text-transform: uppercase;
+}
+
 .highlight-oval {
+  color: white;
 	border-radius: 10px;
-	font-weight: 700;
-	text-transform: uppercase;
 	padding: 2px 7px;
-	background-color: $highlight-oval-color;
+	background-color: $highlight-oval-bg-color;
 	display: inline-flex;
 
-	margin-bottom: 3px;
+	margin-bottom: 4px;
   margin-top: 0;
+  margin-right:4px;
+
+  font-size: $highlight-oval-font-size;
+  font-weight: bold;
 }
 
 
@@ -36,47 +67,72 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: $default-font-size;
   -webkit-font-smoothing:antialiased;
+  letter-spacing: $default-letter-spacing;
 }
 
 // Page details
 #wrapper {
   margin: 0 auto;
-  width: 21cm;
+  width: $page-width; //21cm;
   box-sizing: border-box;
+  display: flex;
 
   /*to delete*/
-  background-color: lightgray;
+  // background-color: lightgray;
 }
 /* PAGE DEFINITION - <END> */
 
 
-#side-content {
+.side-content {
   background-color: $side-background-color;
-  width: 7cm;
-  padding: 0.5cm 0.5cm;
+  width: $side-column-width; // 7cm;
+  padding-top: $side-column-width/14;
+  padding-bottom: $side-column-width/14;
+  padding-left: $side-column-width / 15.6;
+  padding-right: 34px; //TODO Make it relative
+  // $side-column-width/14;
   color: white;
   box-sizing: border-box;
 }
 
-#side-content .section-head {
+.side-content .section-head {
+  @extend .h2;
   text-align: center;
-  letter-spacing: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  margin-bottom: 1em;
+  margin-bottom: $default-font-size; //1em;
 }
 
-#side-content .content-section {
-  margin-top: 1.8em;
+.side-content .content-section {
+  margin-bottom: 45px; // TODO Make it relative
+  break-before: auto;
+  break-inside: avoid;
 }
 
-#side-content .section-body ul {
-  padding-left: 15px;
+.side-content .section-body ul {
+  padding-left: 1em;
   list-style: circle;
 }
 
-#side-content .section-body > ul {
-  padding-left: 0;
+
+#main-content {
+  width: $page-width - $side-column-width;
+  padding-top: $side-column-width/14;
+  padding-bottom: $side-column-width/14;
+  padding-left: $side-column-width / 15.6;
+  padding-right: 34px; //TODO Make it relative
+  box-sizing: border-box;
 }
 
 
+#main-content .section-head {
+  @extend .h2;
+  margin-bottom: $default-font-size*1.2; //1em;
+  text-align: center;
+}
+
+#main-content .content-section {
+  margin-bottom: 3em;
+}
+
+#main-content .section-body {
+  line-height: 1.3em;
+}
