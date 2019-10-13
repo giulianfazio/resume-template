@@ -1,0 +1,21 @@
+<div class="skills-section content-section">
+    <div class="section-head">
+      SKILLS
+    </div>
+    <div class="section-body">
+        <ul>
+          <li *ngFor='let skill of skills' class="skill">
+            <div class="skill-name">{{skill.name}}</div>
+            <div class="skill-keywords keywords-container" *ngIf="skill.keywords && skill.keywords.length >0">
+              <span
+                  class="skill-keyword highlight-oval"
+                  *ngFor="let keyword of skill.keywords"
+              >
+                {{keyword}}
+              </span>
+            </div>
+
+          </li>
+        </ul>
+    </div>
+  </div>

@@ -1,0 +1,20 @@
+@import '../../styles.scss';
+
+$sub-head-margin-bottom: 0.2em;
+
+.volunteerItem-position {
+  @extend .h3;
+  // color: rgb(51, 52, 56);
+  margin-top: 1.4em;
+  font-size: 16px;
+  margin-bottom: $sub-head-margin-bottom;
+}
+
+.volunteerItem-quickInfo {
+  font-weight: bold;
+  margin-bottom: $sub-head-margin-bottom + 0.4em;
+}
+
+.volunteerItem {
+  margin-bottom: 3em;
+}

@@ -1,0 +1,20 @@
+@import '../../styles.scss';
+
+$sub-head-margin-bottom: 0.2em;
+
+.expItem-role {
+  @extend .h3;
+  // color: rgb(51, 52, 56);
+  margin-top: 1.4em;
+  font-size: 16px;
+  margin-bottom: $sub-head-margin-bottom;
+}
+
+.expItem-quickInfo {
+  font-weight: bold;
+  margin-bottom: $sub-head-margin-bottom + 0.5em;
+}
+
+.expItem {
+  margin-bottom: 3em;
+}

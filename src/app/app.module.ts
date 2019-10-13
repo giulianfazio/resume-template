@@ -6,13 +6,29 @@ import { AppComponent } from './app.component';
 import { CandidateContactsComponent } from './candidate-contacts/candidate-contacts.component';
 import { CandidateEducationComponent } from './candidate-education/candidate-education.component';
 import { CandidatePhotoComponent } from './candidate-photo/candidate-photo.component';
+import { CandidateLabelingComponent } from './candidate-labeling/candidate-labeling.component';
+import { CandidateSummaryComponent } from './candidate-summary/candidate-summary.component';
+import { CandidateExperienceComponent } from './candidate-experience/candidate-experience.component';
+import { CandidateSkillsComponent } from './candidate-skills/candidate-skills.component';
+import { CandidateInterestsComponent } from './candidate-interests/candidate-interests.component';
+import { CandidateVolunteeringComponent } from './candidate-volunteering/candidate-volunteering.component';
+import { CandidateAwardsComponent } from './candidate-awards/candidate-awards.component';
+import { CandidateLanguagesComponent } from './candidate-languages/candidate-languages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CandidateContactsComponent,
     CandidateEducationComponent,
-    CandidatePhotoComponent
+    CandidatePhotoComponent,
+    CandidateLabelingComponent,
+    CandidateSummaryComponent,
+    CandidateExperienceComponent,
+    CandidateSkillsComponent,
+    CandidateInterestsComponent,
+    CandidateVolunteeringComponent,
+    CandidateAwardsComponent,
+    CandidateLanguagesComponent
   ],
   imports: [
     BrowserModule,

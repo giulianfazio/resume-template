@@ -1,0 +1,28 @@
+<div class="volunteering-section content-section">
+  <div class="section-head">
+      VOLUNTEERING
+  </div>
+  <div class="section-body">
+    <div *ngFor="let volunteerItem of volunteering" class="volunteerItem">
+      <div
+          class="volunteerItem-position"
+          [innerHTML]=volunteerItem.position
+          >
+      </div>
+      <div
+          class="volunteerItem-quickInfo"
+          >
+        {{volunteerItem.organization}} |
+        {{volunteerItem.startDate}} -
+        {{volunteerItem.endDate || 'Present'}}
+      </div>
+      <div
+          class="volunteerItem-summary"
+          [innerHTML]=volunteerItem.summary
+          >
+      </div>
+
+    </div>
+
+  </div>
+</div>
