@@ -3,11 +3,11 @@ export const resume =
   "basics": {
     "name": "Giulian Fazio",
     "label": "Software Engineer",
-    "picture": "https://media.licdn.com/dms/image/C5603AQHcuU-_IzXRzg/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=SrGWljDptFSlTQKiN7Y3DGOIT2diiVksWn18IVlif78",
+    "picture": "../../assets/photo/3.jpeg",
     "email": "giulian.fazio@gmail.com",
-    "phone": "+39 329 342 1032<br/>+41 78 657 7369",
+    "phone": "+41 78 657 7369<br>+39 329 342 1032",
     "website": "",
-    "summary": "<strong>I am a Software Engineer with 3 years of working experience (mainly in Java),</strong> as well as a certified Magnolia Associate Developer. I have an educational background in electronics, but have since then specialized in software developing and acquired many skills, both during my university studies and in my free time.<br>Programming is not just something I do, it is something I deeply love doing. I thrive on developing original ideas and fixing problems, all the while growing professionally and learning new technologies every day. That is why I consider myself very lucky whenever I have the chance to work in close contact with people that share my same passion.",
+    "summary": "Hello Reader with a little time, here is short summary of myself for you. Enjoy the read!<br>Professionally speaking, I am a mid-level Software Engineer as well as a Magnolia-certified developer with a preference for backend technologies and Java, which is the language I am most experienced with. I have an educational background in Computer Science and electronics (and a secret crush on Chemistry but I never acted on it). I am really eager to get that set of skills which may give me that \"senior engineer mindset\" and — unsurprisingly — this is now my main short-term goal. On the way there, I\'ve had the chance to experiment with AI — especially with neural networks and genetic algorithms — and that\'s how I sadly got a new tech crush. I feel extremely grateful when I think that I have managed to transform my passion — programming — into my daily job and I feel lucky whenever I get the chance to work with people who share my passion.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -19,18 +19,27 @@ export const resume =
       {
         "network": "Linkedin",
         "username": "giulian-fazio",
-        "url": "www.linkedin.com/in/giulian-fazio"
+        "url": "<span class=\"link-in-content\">linkedin.com/in/giulian-fazio</span>"
       }
     ]
   },
   "work": [
     {
-      "company": "ti&m AG",
+      "company": "beekeeper",
       "position": "Software Engineer",
+      "website": "www.beekeeper.io",
+      "startDate": "2018-07",
+      "endDate": "2019-12",
+      "summary": "I worked with my teammates on expanding and improving the marketplace of the company's product; this included developing, managing and updating extensions and integrations with external systems.I worked on building and keeping updated internal and public SDK and an antivirus system for uploaded files.<br>Being placed in a \"middle-team\" allowed me to enjoy cross-department and cross-office collaborations and to have often the role of a mediator. I am particularly proud to have facilitated the settlement of a new office in Krakow: being one of the main connections to the Zurich Headquarter, organizing sharing-knowledge activities, participating in interviews, etc.<br>My duties on a daily basis included: developing, prototyping, performing Quality assurance tasks, deploying, prioritizing work and managing expetations.Java, microservices and REST APIs were the technologies I had the chance to work with the most.<br><span class=\"keywords-and-techs\"><b>Keywords and technologies:</b> Java, Docker, Dropwizard, Python, REST, RabbitMQ, Kanban, Jenkins<span>",
+      "highlights": []
+    },
+    {
+      "company": "ti&m AG",
+      "position": "Software Engineer and IT-consultant",
       "website": "www.ti8m.ch",
       "startDate": "2016-08",
-      "endDate": "",
-      "summary": "<strong>Project</strong>: UBS Connections (Jive)<br> <strong>Involved Parties</strong>: ti&amp;m AG, UBS<br> <strong>Working Period</strong>: 2017-07 - Present <br><strong>Description</strong>: Version upgrades, enhancement of the product, adding of extensions for business customers and integration of numerous UBS systems in Connections.<br> <strong>Activities</strong>: Theaming in Jive, developing Jive Plugins and Tiles, task estimation, writing SQL scripts (also for production environment), writing documentation.<br> <strong>Keywords and technologies</strong>: Jive, REST, Docker, Java, Spring, Oracle, SQL, Git, Freemarker templates, Soy templates, Javascript, JQuery, HTML, CSS.<br> <br> <strong>Project</strong>: Floripa - Internal Corporate Website<br> <strong>Involved Parties</strong>: ti&amp;m AG<br> <strong>Working Period</strong>: 2017-10 - Present <br><strong>Description</strong>: Designing and Development of the new ti&amp;m corporate website.<br> <strong>Activities</strong>: Magnolia backend development, designing of Magnolia components, configuration, frontend integration, writing of documentation, testing.<br> <strong>Keywords and technologies</strong>: Magnolia CMS, Git, Java, JCR, LDAP, Maven, Tomcat, Freemarker templates, Javascript, JQuery.<br> <br> <strong>Project</strong>: Papyrus - Internal Blog, Products website<br> <strong>Involved Parties</strong>: ti&amp;m AG<br> <strong>Working Period</strong>: 2016-10 - 2017-08 <br><strong>Description</strong>: Implementation of new functionalities and new design for the ti&amp;m blog. Building of the new ti&amp;m products website.<br> <strong>Activities</strong>: Magnolia backend development, designing of Magnolia components, configuration, frontend integration, writing of documentation, testing, deployment.<br> <strong>Keywords and technologies</strong>: Magnolia CMS, Git, Java, JCR, Maven, Tomcat, Freemarker templates, Javascript, JQuery.<br> <br> <strong>Project</strong>: BKB Virtuelle Filiale<br> <strong>Involved Parties</strong>: ti&amp;m AG, Basler Kantonalbank<br> <strong>Working Period</strong>: 2016-08 - 2016-10 <br><strong>Description</strong>: Implementation of frontend web components and interfaces for a customized version of the ti&amp;m channel suite.<br> <strong>Activities</strong>: Implementation of various micro services, unit tests, integration tests.<br> <strong>Keywords and technologies</strong>: AngularJS, Javascript (ECMAScript 6), Git, Gulp, Maven, Java, Docker, CDK (Channel suite Development Kit).<br> <br> <strong>Project</strong>: Web App for elaboration of big data <br> <strong>Involved Parties</strong>: UIIP - Biogem, ti&amp;m AG <br> <strong>Description</strong>: Development of a web app for extracting and analyzing email data (big data) and visualizing the results by various charts and graphs. <br> <strong>Activities</strong>: Analysis, planning, backend programming, testing. <br> <strong>Keywords and technologies</strong>: Java, Apache Spark, Spring, Maven, Git.",
+      "endDate": "2018-06",
+      "summary": "I worked for different clients and projecs. Here a list of the most relavant ones:<ul class=\"projects-list\"><li><b>UBS Connections (Jive) for UBS</b><br><b>Description:</b> Building, customization and mantainance of UBS internal network platform (UBS Connections) based on Jive.<br><b>Activities:</b> Theaming in Jive, developing Jive Plugins and Tiles, plan and implement integrations with other UBS systems, tasks estimation, SQL scripting, writing documentation, rolling out versions.<br><span class=\"keywords-and-techs\"><b>Keywords and technologies:</b> Jive, REST, Docker, Java, Oracle, SQL, Git, Freemarker templates, Soy templates, Javascript, JQuery, CSS</span></li><li><b>Internal projects: Floripa and Papyrus</b><br><b>Description:</b> Designing and Development of the new ti&amp;m blog, products and main corporate websites. All based on Magnolia CMS.<br> <b>Activities</b>: Magnolia backend development, designing of Magnolia components, CMS configuration, frontend integration, deployments, direct customer support, documentation writing, testing.<br><span class=\"keywords-and-techs\"><b>Keywords and technologies:</b> Magnolia CMS, Git, Java, JCR, LDAP, Maven, Tomcat, Freemarker templates, Javascript, JQuery.</span></li><li><b>Web App prototype for Bigdata analisys</b><br> <b>Description:</b> Development of a web app prototype for extracting and analyzing big chuncks email data visualizing the results on meaningful charts and graphs. <br> <b>Activities:</b> Analysis, planning, backend programming, testing.<br><span class=\"keywords-and-techs\"><b>Keywords and technologies:</b> Java, Apache Spark, Spring, Maven, Git.</span></li></ul>   ",
       "highlights": []
     },
     {
@@ -39,7 +48,7 @@ export const resume =
       "website": "www.gft.com",
       "startDate": "2015-01",
       "endDate": "2016-04",
-      "summary": "I worked in a 2-year project named Galileo Claim Center, commissioned by Ernst &amp; Young and Zürich Insurance. The goal of the project was to build an Insurance Management System by customizing the GuideWire/ClaimCenter platform. The project was carried out in an Agile SCRUM context, which allowed me to get in touch directly with analysts and customers. <br>Following are some of the tasks and responsibilities I was given: <br><br>&nbsp;• Personal time and task management.<br>&nbsp;• Taking charge of certain aspects and discussing them directly with customers. <br>&nbsp;• Designing and developing new ClaimCenter components using Gosu. <br>&nbsp;• Writing batch processes with Spring Batch.<br>&nbsp;• Writing Unit tests. <br>&nbsp;• Writing SQL scripts.<br>&nbsp;• Writing technical documentation.<br><br><strong>Keywords and technologies</strong>: Agile SCRUM, Gosu, Java, SVN, Maven, Spring, Spring Boot, Spring Batch, Guidewire, ClaimCenter, jUnit, gUnit.",
+      "summary": "I worked in a 2-year project named Galileo Claim Center, commissioned by Ernst &amp; Young and Zürich Insurance. The goal of the project was to build an Insurance Management System by customizing the GuideWire/ClaimCenter platform. The project was carried out in an Agile SCRUM context, which allowed me to get in touch directly with analysts and customers. <br>Following are some of the tasks and responsibilities I was given:<ul><li>Personal time and task management.</li><li>Taking charge of certain aspects and discussing them directly with customers.</li><li>Designing and developing new ClaimCenter components using Gosu.</li><li>Writing batch processes with Spring Batch.</li><li>Writing SQL scripts.</li><li>Writing Unit tests and technical documentation</li></ul><span class=\"keywords-and-techs\"><b>Keywords and technologies:</b> Agile SCRUM, Gosu, Java, SVN, Maven, Spring, Spring Boot, Spring Batch, Guidewire, ClaimCenter, jUnit, gUnit.</span>",
       "highlights": []
     }
   ],
@@ -58,18 +67,16 @@ export const resume =
     {
       "institution": "Università degli Studi di Messina",
       "area": "Computer Science",
-      "studyType": "Bachelor\"s Degree",
+      "studyType": "Bachelor\'s Degree",
       "startDate": "2011",
       "endDate": "2014",
       "gpa": "110/110 cum laude - 4.0 (GPA)",
-      "info": "<strong>Degree thesis</strong> Julia: A dynamic programming language for scientific and distributed computing",
+      "info": "<strong>Degree thesis</strong> <i>Julia: A dynamic programming language for scientific and distributed computing</i>",
       "courses": [
-        "Imperative Programming",
-        "Object Oriented Programming",
-        "C, Java, SQL, Fortran, Julia, Assembly (Intel x86)",
+        "Imperative & OO Programming",
         "Numerical Analysis",
         "Software Engineering",
-        "Databases (Design and Security)",
+        "Databases (Design & Security)",
         "Operative Systems",
         "Computer Networks (with focus on Internet Network)",
         "Basic Mathematical and Physical subjects"
@@ -82,18 +89,18 @@ export const resume =
       "startDate": "2017-10",
       "endDate": "2017-11",
       "gpa": "100/100",
-      "info": "Summary: https://goo.gl/uEYD8D<br>Certificate: https://goo.gl/74YHap",
+      "info": "<b>Summary:</b> <span class=\"link-in-content\">goo.gl/uEYD8D</span><br><b>Certificate:</b> <span class=\"link-in-content\">bit.ly/2PP8yek</span>",
       "courses": [
       ]
     },
     {
       "institution": "Udacity & Google",
-      "area": "Deep Learning & TensorFlow ",
+      "area": "Deep Learning & TensorFlow",
       "studyType": "Course",
       "startDate": "2016-12",
       "endDate": "2017-02",
       "gpa": "",
-      "info": "Course Summary: https://goo.gl/YnpQPT",
+      "info": "<b>Summary:</b> <span class=\"link-in-content\">goo.gl/YnpQPT</span>",
       "courses": [
       ]
     },
@@ -107,12 +114,12 @@ export const resume =
       "info": "",
       "courses": [
         "Object Oriented Programming",
-        "Database",
-        "JavaScript Client Side and App (Ajax, AngularJS, MeteorJS)",
+        "Databases",
+        "JavaScript, AngularJS, MeteorJS",
         "Cross mobile platform development",
         "Server Side Technologies (Java, NodeJS)",
         "Software Engineering and Testing",
-        "Teamwork and Communication Management",
+        "Teamwork and Communication",
         "Public speaking and Effective Presentation"
       ]
     },
@@ -128,17 +135,16 @@ export const resume =
         "Circuit Design",
         "Automation Systems",
         "Telecommunications",
-        "Microcontroller Programming",
-        "Z-80 Programming (Assembly)"
+        "Microcontroller Programming"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Onore al Merito: Premio alla Laurea (Top student prize)",
+      "title": "Top university students prize: <i>\"Onore al Merito: Premio alla Laurea\"</i>",
       "date": "2015-02",
       "awarder": "Università degli Studi di Messina",
-      "summary": "Prize awarded to the top ten students of the Department of Science and Technology. <br/>Ref: goo.gl/8iWZyK (search for \"Fazio Giulian\")"
+      "summary": "Prize awarded to the top students of the Department of Science and Technology of the University of Messina. <br/>Top students list: goo.gl/8iWZyK (search for \"Fazio Giulian\")"
     }
   ],
   "publications": [],
@@ -165,31 +171,13 @@ export const resume =
       ]
     },
     {
-      "name": "Databases",
-      "level": "",
-      "keywords": [
-        "Relational DB",
-        "SQL",
-        "Oracle",
-        "MySQL"
-      ]
-    },
-    {
       "name": "Deep Learning",
       "level": "",
       "keywords": [
-        "Neural Networks",
-        "Genetic Algorithms",
         "TensorFlow",
-        "Apache Spark"
-      ]
-    },
-    {
-      "name": "CVS",
-      "level": "",
-      "keywords": [
-        "Git",
-        "SVN"
+        "Genetic Algorithms",
+        "Apache Spark",
+        "Neural Networks"
       ]
     },
     {
@@ -203,12 +191,21 @@ export const resume =
       "keywords": []
     },
     {
-      "name": "Other Languages",
+      "name": "CVS",
       "level": "",
       "keywords": [
-        "Scala",
-        "C",
-        "Gosu"
+        "Git",
+        "SVN"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": [
+        "Relational DB",
+        "SQL",
+        "Oracle",
+        "MySQL"
       ]
     },
     {
@@ -222,13 +219,16 @@ export const resume =
       ]
     },
     {
-      "name": "Other Skills",
+      "name": "Other Languages & skills",
       "level": "",
       "keywords": [
+        "Scala",
+        "C",
+        "Gosu",
         "Regex",
         "Freemarker templates"
       ]
-    }
+    },
   ],
   "languages": [
     {
@@ -237,23 +237,21 @@ export const resume =
     },
     {
       "language": "English",
-      "fluency": "Intermediate"
+      "fluency": "Working Proficiency"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic Knowledge"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Basic Knowledge"
     }
   ],
   "interests": [
     {
-      "name": "Programming",
-      "keywords": [
-        "Deep Learning",
-        "Neural Networks",
-        "Genetic Algorithms",
-        "Functional Programming"
-      ]
-    },
-    {
       "name": "Games",
       "keywords": [
-        "Role-playing Games",
         "Board Games",
         "Video Games"
       ]
@@ -261,7 +259,23 @@ export const resume =
     {
       "name": "Puzzles and Riddles",
       "keywords": []
+    },
+    {
+      "name": "Sport",
+      "keywords": [
+        "Ping Pong",
+        "Volleyball",
+        "Swimming"
+      ]
     }
   ],
-  "references": []
+  "references": [],
+  "certificates": [
+    {
+      "title": "Magnolia Associated Developer",
+      "issuer": "Magnolia International Ltd.",
+      "date": "2017-07",
+      "summary": "My official \"Magnolia Associated Developer\" badge can be viewed here: <span class=\"link-in-content\">www.magnolia-cms.com/certified/giulian-fazio.html</span>"
+    }
+  ]
 };

@@ -1,19 +1,19 @@
 @import '../../styles.scss';
 
-.award-quickInfo {
+.certificate-quickInfo {
   font-weight: bold;
   margin-bottom: 0.6em;
 }
 
-.award-prize-title {
+.certificate-title {
   font-weight: bold;
 }
 
-.award {
+.certificate {
   margin-bottom: 3em;
 }
 
 
-.award-summary {
+.certificate-summary {
   @extend .quoted-body;
 }

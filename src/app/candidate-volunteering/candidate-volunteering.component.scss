@@ -18,3 +18,8 @@ $sub-head-margin-bottom: 0.2em;
 .volunteerItem {
   margin-bottom: 3em;
 }
+
+
+.volunteerItem-summary {
+  @extend .quoted-body;
+}

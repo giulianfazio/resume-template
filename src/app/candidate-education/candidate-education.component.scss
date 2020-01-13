@@ -22,23 +22,24 @@ $sub-items-spacing: 10px; //TODO make a variable font-size + 1
 
 .educationItem-head, div.educationItem-grade {
   @extend .h3;
-  margin-bottom: $sub-items-spacing;
 }
 
+.educationItem-head {
+  margin-bottom: 5px;
+}
 
-
-.educationItemItem-subtHead {
+.educationItemItem-subHead {
   margin-bottom: $sub-items-spacing;
   font-style: italic;
   line-height: $h3-font-size + 5px;
   margin-top: -3px;
+  // color: lightblue;
+  color: #7BAFB8;
 }
 
 .educationItem-grade {
   margin-top:-3px;
-}
-
-.educationItem-institution, .educationItem-period {
+  margin-bottom: 6px;
 }
 
 .educationItem-info {
@@ -49,8 +50,19 @@ $sub-items-spacing: 10px; //TODO make a variable font-size + 1
   margin-top: 16px; //TODO make it relative
 }
 
+.educationItem-Courses ul {
+  margin-top: 4px;
+}
+
 .educationItem-Courses li {
   line-height: 20px;
   margin-bottom: 3px;
+}
+
+.educationItem-info-body {
+  padding-left: 0.85em;
+  border-left: 0.15em solid;
+  border-left-color:#7BAFC8;
+  // border-left-color: lightcoral;
 }
 

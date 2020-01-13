@@ -8,11 +8,14 @@
         class="award"
         >
       <div
+          class="award-prize-title"
+          [innerHTML]=award.title
+      >
+      </div>
+      <div
           class="award-quickInfo"
           >
-          {{award.title}} |
-          {{award.date}} |
-          {{award.awarder}}
+          {{award.awarder}} | {{award.date}}
       </div>
       <div
           class="award-summary"

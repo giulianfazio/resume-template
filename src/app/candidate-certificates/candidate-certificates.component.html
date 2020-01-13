@@ -1,0 +1,29 @@
+<div class="certificates-section content-section">
+  <div class="section-head">
+      CERTIFICATES
+  </div>
+  <div class="section-body">
+    <div
+        *ngFor="let certificate of certificates"
+        class="certificate"
+        >
+      <div
+          class="certificate-title"
+          [innerHTML]=certificate.title
+      >
+      </div>
+      <div
+          class="certificate-quickInfo"
+          >
+          {{certificate.issuer}} | {{certificate.date}}
+      </div>
+      <div
+          class="certificate-summary"
+          [innerHTML]=certificate.summary
+          >
+      </div>
+
+    </div>
+
+  </div>
+</div>
