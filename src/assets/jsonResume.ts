@@ -89,7 +89,7 @@ export const resume =
       "startDate": "2017-10",
       "endDate": "2017-11",
       "gpa": "100/100",
-      "info": "<b>Summary:</b> <span class=\"link-in-content\">goo.gl/uEYD8D</span><br><b>Certificate:</b> <span class=\"link-in-content\">bit.ly/2PP8yek</span>",
+      "info": "<b>Summary:</b> <span class=\"link-in-content\">bit.ly/3aeGrxp</span><br><b>Certificate:</b> <span class=\"link-in-content\">bit.ly/2PP8yek</span>",
       "courses": [
       ]
     },
@@ -100,7 +100,7 @@ export const resume =
       "startDate": "2016-12",
       "endDate": "2017-02",
       "gpa": "",
-      "info": "<b>Summary:</b> <span class=\"link-in-content\">goo.gl/YnpQPT</span>",
+      "info": "<b>Summary:</b> <span class=\"link-in-content\">bit.ly/2u0YaaY</span>",
       "courses": [
       ]
     },
@@ -144,7 +144,7 @@ export const resume =
       "title": "Top university students prize: <i>\"Onore al Merito: Premio alla Laurea\"</i>",
       "date": "2015-02",
       "awarder": "Università degli Studi di Messina",
-      "summary": "Prize awarded to the top students of the Department of Science and Technology of the University of Messina. <br/>Top students list: goo.gl/8iWZyK (search for \"Fazio Giulian\")"
+      "summary": "Prize awarded to the top students of the Department of Science and Technology of the University of Messina. <br/>Top students list: bit.ly/2QUTqwk (search for \"Fazio Giulian\")"
     }
   ],
   "publications": [],
@@ -275,7 +275,7 @@ export const resume =
       "title": "Magnolia Associated Developer",
       "issuer": "Magnolia International Ltd.",
       "date": "2017-07",
-      "summary": "My official \"Magnolia Associated Developer\" badge can be viewed here: <span class=\"link-in-content\">www.magnolia-cms.com/certified/giulian-fazio.html</span>"
+      "summary": "Personal \"Magnolia Associated Developer\" badge: <span class=\"link-in-content\">bit.ly/36QOf6i</span>"
     }
   ]
 };
