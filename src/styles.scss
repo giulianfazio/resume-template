@@ -90,7 +90,7 @@ body {
 .side-content {
   background-color: $side-background-color;
   width: $side-column-width; // 7cm;
-  padding-top: $side-column-width/14;
+  padding-top: 34px;
   padding-bottom: $side-column-width/14;
   padding-left: $side-column-width / 15.6;
   padding-right: $side-column-width / 15.6;//TODO Make it relative
@@ -108,7 +108,7 @@ body {
 .side-content .content-section {
   margin-bottom: 45px; // TODO Make it relative
   break-before: auto;
-  break-inside: avoid;
+  break-inside: auto !important;
 }
 
 .side-content .section-body ul {
@@ -119,7 +119,7 @@ body {
 
 #main-content {
   width: $page-width - $side-column-width;
-  padding-top: $side-column-width/14;
+  padding-top: 34px;
   padding-bottom: $side-column-width/14;
   padding-left: $side-column-width / 15.6;
 //padding-right: 34px; //TODO Make it relative
@@ -154,7 +154,7 @@ ul.projects-list li {
 }
 
 .keywords-and-techs {
-  display: none;
+  // display: none;
 }
 
 .quoted-body {
@@ -167,3 +167,28 @@ ul.projects-list li {
 
   text-align: justify;
 }
+
+
+div.candidate-labeling, div.candidate-name {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+.certificate-title, .award-prize-title {
+  @extend .h3
+}
+
+.certificate-quickInfo {
+  // margin-bottom: $sub-items-spacing;
+  font-style: italic;
+  line-height: $h3-font-size + 5px;
+  margin-top: -3px;
+  // color: lightblue;
+  color: #7BAFB8;
+
+  line-height: 19.5px;
+  margin-top: 1px;
+}
+
+

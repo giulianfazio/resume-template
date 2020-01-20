@@ -64,24 +64,7 @@ export const resume =
     }
   ],
   "education": [
-    {
-      "institution": "Università degli Studi di Messina",
-      "area": "Computer Science",
-      "studyType": "Bachelor\'s Degree",
-      "startDate": "2011",
-      "endDate": "2014",
-      "gpa": "110/110 cum laude - 4.0 (GPA)",
-      "info": "<strong>Degree thesis</strong> <i>Julia: A dynamic programming language for scientific and distributed computing</i>",
-      "courses": [
-        "Imperative & OO Programming",
-        "Numerical Analysis",
-        "Software Engineering",
-        "Databases (Design & Security)",
-        "Operative Systems",
-        "Computer Networks (with focus on Internet Network)",
-        "Basic Mathematical and Physical subjects"
-      ]
-    },
+
     {
       "institution": "Coursera & Martin Odersky, École Polytechnique Fédérale de Lausanne",
       "area": "Functional Programming Principles in Scala",
@@ -120,7 +103,24 @@ export const resume =
         "Server Side Technologies (Java, NodeJS)",
         "Software Engineering and Testing",
         "Teamwork and Communication",
-        "Public speaking and Effective Presentation"
+      ]
+    },
+    {
+      "institution": "Università degli Studi di Messina",
+      "area": "Computer Science",
+      "studyType": "Bachelor\'s Degree",
+      "startDate": "2011",
+      "endDate": "2014",
+      "gpa": "110/110 cum laude - 4.0 (GPA)",
+      "info": "<strong>Degree thesis</strong> <i>Julia: A dynamic programming language for scientific and distributed computing</i>",
+      "courses": [
+        "Imperative & OO Programming",
+        "Numerical Analysis",
+        "Software Engineering",
+        "Databases (Design & Security)",
+        "Operative Systems",
+        "Computer Networks (with focus on Internet Network)",
+        "Basic Mathematical and Physical subjects"
       ]
     },
     {
@@ -275,7 +275,7 @@ export const resume =
       "title": "Magnolia Associated Developer",
       "issuer": "Magnolia International Ltd.",
       "date": "2017-07",
-      "summary": "My official \"Magnolia Associated Developer\" badge can be viewed here: <span class=\"link-in-content\">www.magnolia-cms.com/certified/giulian-fazio.html</span>"
+      "summary": "Personal \"Magnolia Associated Developer\" badge: <span class=\"link-in-content\">bit.ly/36QOf6i</span>"
     }
   ]
 };

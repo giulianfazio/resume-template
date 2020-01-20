@@ -13,7 +13,7 @@ $sub-items-spacing: 10px; //TODO make a variable font-size + 1
 
 .educationItem {
   margin-bottom: $edu-items-spacing;
-  break-inside: avoid;
+  // break-inside: avoid;
 }
 
 .educationItem-grade {
