@@ -13,7 +13,8 @@
         class='educationItem-grade'
         [innerHTML]="eduItem.grade"
       ></div>
-      <div class='educationItemItem-subtHead'>
+
+      <div class='educationItemItem-subHead'>
         <div
           class='educationItem-institution'
           [innerHTML]="eduItem.institution"
@@ -24,16 +25,22 @@
         ></div>
       </div>
 
-      <div
-        class='educationItem-info'
-        [innerHTML]="eduItem.info"
-      ></div>
-      <ul class='educationItem-Courses'>
-          <li
-            *ngFor='let course of eduItem.courses'
-            [innerHTML]="course"
-          >  </li>
-      </ul>
+      <div class='educationItem-info-body'>
+        <div
+          class='educationItem-info'
+          [innerHTML]="eduItem.info"
+        ></div>
+
+        <div class='educationItem-Courses' *ngIf='eduItem.courses[0]'>
+          <b>Courses & subjects:</b>
+          <ul>
+            <li
+              *ngFor='let course of eduItem.courses'
+              [innerHTML]="course"
+            >  </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>

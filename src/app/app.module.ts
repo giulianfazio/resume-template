@@ -14,6 +14,8 @@ import { CandidateInterestsComponent } from './candidate-interests/candidate-int
 import { CandidateVolunteeringComponent } from './candidate-volunteering/candidate-volunteering.component';
 import { CandidateAwardsComponent } from './candidate-awards/candidate-awards.component';
 import { CandidateLanguagesComponent } from './candidate-languages/candidate-languages.component';
+import { CandidateCertificatesComponent } from './candidate-certificates/candidate-certificates.component';
+import { PageFillerComponent } from './page-filler/page-filler.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { CandidateLanguagesComponent } from './candidate-languages/candidate-lan
     CandidateInterestsComponent,
     CandidateVolunteeringComponent,
     CandidateAwardsComponent,
-    CandidateLanguagesComponent
+    CandidateLanguagesComponent,
+    CandidateCertificatesComponent,
+    PageFillerComponent
   ],
   imports: [
     BrowserModule,
