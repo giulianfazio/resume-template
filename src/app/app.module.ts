@@ -16,6 +16,7 @@ import { CandidateAwardsComponent } from './candidate-awards/candidate-awards.co
 import { CandidateLanguagesComponent } from './candidate-languages/candidate-languages.component';
 import { CandidateCertificatesComponent } from './candidate-certificates/candidate-certificates.component';
 import { PageFillerComponent } from './page-filler/page-filler.component';
+import { VersionComponent } from './version/version.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { PageFillerComponent } from './page-filler/page-filler.component';
     CandidateAwardsComponent,
     CandidateLanguagesComponent,
     CandidateCertificatesComponent,
-    PageFillerComponent
+    PageFillerComponent,
+    VersionComponent
   ],
   imports: [
     BrowserModule,

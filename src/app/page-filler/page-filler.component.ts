@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Input } from '@angular/core';
+
 
 @Component({
   selector: 'app-page-filler',
@@ -6,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page-filler.component.scss']
 })
 export class PageFillerComponent implements OnInit {
-
+  @Input() spaces;
   constructor() { }
 
   ngOnInit() {
