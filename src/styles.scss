@@ -28,7 +28,6 @@ div {
 
 .h1 {
   font-size: $h1-font-size;
-  font-weight: $h1-font-weight;
   letter-spacing: $h1-letter-spacing;
   text-transform: uppercase;
 }
@@ -46,6 +45,11 @@ div {
   line-height: $h3-font-size + 5px;
   letter-spacing: 0.5px; // TODO make it relative
   text-transform: uppercase;
+}
+
+.h4 {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .highlight-oval {
@@ -106,7 +110,7 @@ body {
 }
 
 .side-content .content-section {
-  margin-bottom: 45px; // TODO Make it relative
+  margin-bottom: 30px; // TODO Make it relative
   break-before: auto;
   break-inside: avoid;
 }
@@ -119,7 +123,7 @@ body {
 
 #main-content {
   width: $page-width - $side-column-width;
-  padding-top: $side-column-width/14;
+  // padding-top: $side-column-width/14;
   padding-bottom: $side-column-width/14;
   padding-left: $side-column-width / 15.6;
 //padding-right: 34px; //TODO Make it relative
@@ -149,13 +153,24 @@ body {
   // list-style: circle;
 }
 
-ul.projects-list li {
-  margin-top: 0.3em;
+#main-content ul.projects-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.projects-list li div{
+  padding-left: 0.85em;
+  border-left: 0.2em solid;
+  border-left-color: #7BAFC8;
+  margin-top: 4px;
+  margin-bottom: 1em;
 }
 
 .keywords-and-techs {
   // display: none;
 }
+
+
 
 .quoted-body {
   padding-left: 0.85em;
@@ -166,4 +181,28 @@ ul.projects-list li {
   // padding-right: 0.85em;
 
   text-align: justify;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.summary-section .section-body p, .expItem-summary p {
+  margin-top: 0;
+  margin-bottom: 0.7em;
+}
+
+.lang-span {
+  font-weight: bold;
+  width: 68px;
+  display: inline-block;
+}
+
+.new-page-margin {
+   height: 16px;
+   display: block;
+}
+
+#main-content .new-page-margin {
+  height: 14px;
 }

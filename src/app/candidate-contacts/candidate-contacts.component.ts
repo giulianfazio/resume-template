@@ -10,11 +10,48 @@ export class CandidateContactsComponent implements OnInit {
   contacts = []
 
   constructor() {
+    this.addBirthdayToContacts(this.contacts, resume);
     this.addAddressToContacs(this.contacts, resume);
+    this.addNationality(this.contacts, resume);
+    // this.addFamily(this.contacts, resume);
     this.addEmailToContacts(this.contacts, resume);
     this.addPhoneNumberToContacts(this.contacts, resume);
     this.addWebsiteToContacts(this.contacts, resume);
     this.addProfilesToContact(this.contacts, resume);
+    this.addDocuments(this.contacts, resume);
+
+  }
+
+  addDocuments(contacts, jsonResume) {
+    contacts.push({
+      key: 'language',
+      styleClass: 'fas fa-file',
+      value: 'References: <span class="link-in-content">bit.ly/38J78ck</span><br>Certificates: <span class="link-in-content">bit.ly/38J4GTc</span>',
+    });
+  }
+
+  addFamily(contacts, jsonResume) {
+    contacts.push({
+      key: 'family',
+      styleClass: 'fa fa-users',
+      value: 'Married; 1 child',
+    });
+  }
+
+  addNationality(contacts, jsonResume) {
+    contacts.push({
+      key: 'nationality',
+      styleClass: 'far fa-id-card',
+      value: 'Italian with B-Permit',
+    });
+  }
+
+  addBirthdayToContacts(contacts, jsonResume) {
+    contacts.push({
+      key: 'birthday',
+      styleClass: 'fa fa-birthday-cake',
+      value: '02 Nov 1992',
+    });
   }
 
   addEmailToContacts(contacts, jsonResume) {

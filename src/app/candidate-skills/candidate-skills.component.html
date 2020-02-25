@@ -1,9 +1,9 @@
 <div class="skills-section content-section">
     <div class="section-head">
-      Keywords
+      Skills
     </div>
     <div class="section-body">
-        <ul>
+        <ul class="skill-list">
           <li *ngFor='let skill of skills' class="skill">
             <div class="skill-name">{{skill.name}}</div>
             <div class="skill-keywords keywords-container" *ngIf="skill.keywords && skill.keywords.length >0">

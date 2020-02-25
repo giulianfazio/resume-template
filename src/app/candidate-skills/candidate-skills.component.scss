@@ -8,5 +8,22 @@
 
 .skill {
   break-inside: avoid;
+}
 
+.skill-keyword {
+  // background-color: #7BAFB8;
+  // background-color: white;
+
+  color: rgb(0, 51, 102);
+  color: white;
+  // font-weight: normal;
+}
+
+ul.skill-list {
+  list-style: none;
+  margin-left: -18px;
+}
+
+.keywords-container {
+  margin-left: 12px;
 }

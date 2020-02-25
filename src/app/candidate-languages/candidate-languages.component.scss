@@ -4,5 +4,21 @@
 }
 
 .language-proficiency {
-  font-style: italic;
+  // font-style: italic;
+  margin-left: 0.5em
+}
+
+.language-name{
+  zoom: 132%;
+}
+
+ul.languages {
+  list-style: none;
+  margin-left: -20px;
+}
+
+li.language {
+  display: flex;
+  align-items: center;
+  align-content: center;
 }

@@ -5,11 +5,12 @@
   <div class="section-body">
     <ul class="languages">
         <li *ngFor="let language of languages" class="language">
-          <span class="language-name">
-            {{language.language}}
-          </span> |
-          <span class="language-proficiency">
-            {{language.fluency}}
+          <span class="language-name"
+             [innerHTML]=language.language
+          >
+          </span>
+          <span class="language-proficiency"
+          [innerHTML]=language.fluency>
           </span>
 
         </li>
