@@ -11,39 +11,59 @@ $sub-items-spacing: 10px; //TODO make a variable font-size + 1
   break-after: avoid;
 }
 
+
 .educationItem {
   margin-bottom: $edu-items-spacing;
   break-inside: avoid;
+  box-decoration-break: clone;
 }
 
 .educationItem-grade {
   @extend .highlight-oval;
+  // display: none;
+
+  // color: #3a6e87;
+  // background-color: white;
+  font-weight: bold;
+  font-size: 14px;
+
+  top: -2px;
+  position: relative;
 }
 
 .educationItem-head, div.educationItem-grade {
-  @extend .h3;
+  // @extend .h3;
 }
 
 .educationItem-head {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  font-weight: bold;
+
 }
 
 .educationItemItem-subHead {
   margin-bottom: $sub-items-spacing;
-  font-style: italic;
+  // font-style: italic;
   line-height: $h3-font-size + 5px;
   margin-top: -3px;
   // color: lightblue;
   color: #7BAFB8;
 }
 
+.educationItem-period {
+  font-weight: bold;
+}
+
 .educationItem-grade {
   margin-top:-3px;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 
 .educationItem-info {
   margin-bottom: $sub-items-spacing;
+  font-size: 14px;
 }
 
 .educationItem-Courses {

@@ -3,16 +3,17 @@
 $sub-head-margin-bottom: 0.2em;
 
 .expItem-role {
-  @extend .h3;
+  @extend .h4;
   // color: rgb(51, 52, 56);
   margin-top: 1.4em;
-  font-size: 16px;
   margin-bottom: $sub-head-margin-bottom;
 }
 
 .expItem-quickInfo {
   font-weight: bold;
-  margin-bottom: $sub-head-margin-bottom + 0.5em;
+  margin-bottom:  0.5em;
+  // color: #7BAFC8;
+  color: #3a6e87;
 }
 
 .expItem {
@@ -26,3 +27,5 @@ $sub-head-margin-bottom: 0.2em;
 .expItem-summary {
   @extend .quoted-body;
 }
+
+
