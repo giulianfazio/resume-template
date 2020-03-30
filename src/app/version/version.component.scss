@@ -1,0 +1,19 @@
+@import '../../styles.scss';
+
+.version-head {
+  @extend .h3;
+  margin-bottom: 5px;
+
+}
+
+.cv-template-info {
+  @extend .quoted-body;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.version-info {
+  font-size: 15px;
+  margin-bottom: 12px;
+  margin-top: -1px;
+}
