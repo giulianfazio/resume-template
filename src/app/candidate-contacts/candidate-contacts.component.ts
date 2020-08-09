@@ -12,13 +12,13 @@ export class CandidateContactsComponent implements OnInit {
   constructor() {
     this.addBirthdayToContacts(this.contacts, resume);
     this.addAddressToContacs(this.contacts, resume);
-    this.addNationality(this.contacts, resume);
+    // this.addNationality(this.contacts, resume);
     // this.addFamily(this.contacts, resume);
     this.addEmailToContacts(this.contacts, resume);
     this.addPhoneNumberToContacts(this.contacts, resume);
     this.addWebsiteToContacts(this.contacts, resume);
     this.addProfilesToContact(this.contacts, resume);
-    this.addDocuments(this.contacts, resume);
+    // this.addDocuments(this.contacts, resume);
 
   }
 
@@ -50,7 +50,7 @@ export class CandidateContactsComponent implements OnInit {
     contacts.push({
       key: 'birthday',
       styleClass: 'fa fa-birthday-cake',
-      value: '02 Nov 1992',
+      value: '10 Luglio 1998',
     });
   }
 

@@ -13,9 +13,10 @@ $sub-items-spacing: 10px; //TODO make a variable font-size + 1
 
 
 .educationItem {
-  margin-bottom: $edu-items-spacing;
+  // margin-bottom: $edu-items-spacing;
   break-inside: avoid;
   box-decoration-break: clone;
+  margin-bottom: 2.3em;
 }
 
 .educationItem-grade {
@@ -86,3 +87,14 @@ $sub-items-spacing: 10px; //TODO make a variable font-size + 1
   // border-left-color: lightcoral;
 }
 
+.educationItem-institution {
+    color: #3a6e87;
+    font-weight: 600;
+}
+
+.education-section-separator {
+margin-top: -1em;
+    border: 1px solid #7bafc8;
+    width: 100%;
+    border-radius: 50%;
+}

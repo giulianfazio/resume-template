@@ -8,8 +8,8 @@
   // background-color: gray;
   // padding: 2em 0;
   margin-bottom: 7px;
-  margin-bottom: 0px;
-
+  margin-bottom: 2.5em;
+  // border-bottom: 1px solid #7bafc8;
 }
 
 .candidate-name {
@@ -21,7 +21,13 @@
 
 .candidate-role {
   @extend .h2;
-  margin-bottom: 30px;
+  margin-bottom: 13px;
   color: $candidate-role-font-color;
 
+}
+
+.candidate-labeling-separator {
+  border: 1px solid #7bafc8;
+  width: 100%;
+  border-radius: 50%;
 }

@@ -1,6 +1,6 @@
 <div class="certificates-section content-section">
   <div class="section-head">
-      CERTIFICATES
+      CERTIFICATI
   </div>
   <div class="section-body">
     <div
@@ -13,10 +13,17 @@
       >
       </div>
       <div
-          class="certificate-quickInfo"
+          class="certificate-quickInfo-issuer"
           >
-          {{certificate.issuer}} | {{certificate.date}}
+          {{certificate.issuer}}
       </div>
+      <div
+        class="certificate-quickInfo-date"
+      >
+        {{certificate.date}}
+      </div>
+
+
       <div
           class="certificate-summary"
           [innerHTML]=certificate.summary

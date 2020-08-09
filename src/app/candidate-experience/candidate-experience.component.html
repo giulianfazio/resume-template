@@ -1,13 +1,16 @@
 <div class="experience-section content-section">
     <div class="section-head">
-        EXPERIENCE
+        ESPERIENZE LAVORATIVE
     </div>
     <div class="section-body">
       <div *ngFor="let expItem of experience" class="expItem">
         <div class="expItem-role" [innerHTML]=expItem.position>
         </div>
         <div class="expItem-quickInfo">
-          {{expItem.company}} | {{expItem.website}} | {{expItem.address}} | {{expItem.startDate}} - {{expItem.endDate || 'Present'}}
+          {{expItem.company}} | {{expItem.address}}
+        </div>
+        <div class="expItem-quickInfo expItem-quickInfo-date">
+          {{expItem.startDate}} - {{expItem.endDate || 'Present'}}
         </div>
         <div
             class="expItem-summary"

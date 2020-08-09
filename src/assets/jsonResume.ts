@@ -1,59 +1,85 @@
 export const resume =
 {
   "basics": {
-    "name": "Giulian Fazio",
-    "label": "Software Engineer",
+    "name": "Leonardo Fazio",
+    "label": "Mediatore Linguistico",
     "picture": "../../assets/photo/3.jpeg",
-    "email": "giulian.fazio@gmail.com",
-    "phone": "+41 78 657 7369",
+    "email": "leonardofazio98@hotmail.com",
+    "phone": "+39 388 404 57 05",
+    "birthdate": "10/07/1998",
     "website": "",
-    "summary": "<p>I am a Magnolia-certified, mid-level Software Engineer with <b>4+ years of experience in Backend technologies and Agile methodologies</b>; sporadic experience with Frontend technologies and <b>Java as my main language</b>. I have an educational background in Computer Science and Electronics.</p><p>I give my best in <b>competitive and feedback-based environments</b> and I value healthy collaboration cultures, sharing-knowledge initiatives, <b>quality</b>, <b>honesty</b>, and <b>transparency</b>. </p><p>I aim to reach the level of Software architect. However, <b>my short-term goal is to</b> explore in deep the various stages of the Software lifecycle and <b>gain the experience and the confidence</b> I still need <b>to consider myself a Senior Software Engineer</b>.</p>",
+    "summary": "To be done",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Zurich",
-      "countryCode": "CH",
+      "city": "Messina",
+      "countryCode": "IT",
       "region": ""
     },
     "profiles": [
-      {
-        "network": "Linkedin",
-        "username": "giulian-fazio",
-        "url": "<span class=\"link-in-content\">linkedin.com/in/giulian-fazio</span>"
-      }
     ]
   },
   "work": [
     {
-      "company": "beekeeper",
-      "position": "Software Engineer",
-      "address": "Zurich, CH",
-      "website": "www.beekeeper.io",
-      "startDate": "2018-07",
-      "endDate": "2019-12",
-      "summary": "<p>I worked with my teammates on expanding and <strong>improving the marketplace of the company's product</strong>, building and<strong> keeping updated internal and public SDK</strong><strong>s</strong> and <strong>setting up an antivirus system</strong> for files uploaded on the platform.</p><p>I was placed in a &ldquo;middle-team&rdquo; split between Zurich and Krakow and in direct contact with other customer-facing departments. I had the opportunity of <strong>helping meeting and managing customer expectations</strong> and I am proud of have played an <strong>important role in the settlement of the new Krakow office</strong>.</p><p><strong>My duties included:</strong> developing, prototyping, performing <strong>Quality </strong><strong>Assurance</strong> tasks, deploying, <strong>remote collaboration</strong> and work prioritization; all wrapped by the <strong>Agile Kanban</strong> framework. <strong>Main techs:</strong> Java, Microservices (Docker), REST APIs, Dropwizard, Kubernetes, RabbitMQ, Jenkins, Git, Python</p>",
-      "highlights": []
-    },
-    {
-      "company": "ti&m AG",
-      "position": "Software Engineer and IT-consultant",
-      "address": "Zurich, CH",
-      "website": "www.ti8m.ch",
-      "startDate": "2016-08",
-      "endDate": "2018-06",
-      "summary": "I worked for different clients and projects. Here a list of the most relevant ones:<ul class=\"projects-list\"><li><b>UBS Connections (Jive) for UBS</b><div><b>Description:</b> Building, customization, and maintenance of the UBS internal network platform (UBS Connections) based on Jive.<br><b>Activities:</b> Theaming in Jive, developing Jive Plugins and Tiles, plan and implement integrations with other UBS systems, tasks estimation, SQL scripting, writing documentation, rolling out versions.<br><span class=\"keywords-and-techs\"><b>Keywords and technologies:</b> Jive, REST, Docker, Java, Oracle, SQL, Git, Freemarker templates, Soy templates, Javascript, JQuery, CSS</span></div></li><li><b>Internal projects: Floripa and Papyrus</b><div><b>Description:</b> Designing and Development of the new ti&amp;m blog, products, and main corporate websites. All based on Magnolia CMS.<br> <b>Activities</b>: Magnolia backend development, designing of Magnolia components, CMS configuration, frontend integration, deployments, direct customer support, documentation writing, testing.<br><span class=\"keywords-and-techs\"><b>Keywords and technologies:</b> Magnolia CMS, Git, Java, JCR, LDAP, Maven, Tomcat, Freemarker templates, Javascript, JQuery.</span></div></li><li><b>Web App prototype for Bigdata analysis</b><div><b>Description:</b> Development of a web app prototype for extracting and analyzing big chunks of email data visualizing the results on meaningful charts and graphs. <br> <b>Activities:</b> Analysis, planning, backend programming, testing.<br><span class=\"keywords-and-techs\"><b>Keywords and technologies:</b> Java, Apache Spark, Spring, Maven, Git.</span></div></li></ul>   ",
-      "highlights": []
-    },
-    {
-      "company": "GFT",
-      "position": "<span class=\"new-page-margin\"> </span>Gosu and Java Developer",
-      "address": "Milan, IT",
-      "website": "www.gft.com",
-      "startDate": "2015-01",
-      "endDate": "2016-04",
-      "summary": "I worked in a <b>2-year project named Galileo Claim Center</b>, commissioned by <b>Ernst &amp; Young</b> and <b>Zürich Insurance</b>. The goal of the project was to build an <b>Insurance Management System</b> by customizing the GuideWire/ClaimCenter platform. The project was carried out in an <b>Agile SCRUM</b> context, which allowed me to get in touch directly with analysts and customers. <br>Following are some of the tasks and responsibilities I was given:<ul><li>Personal time and task management.</li><li>Taking charge of certain aspects and discussing them directly with customers.</li><li>Designing and developing new ClaimCenter components using <b>Gosu</b>.</li><li>Writing batch processes with Spring Batch.</li><li>Writing SQL scripts.</li><li>Writing Unit tests and technical documentation</li></ul><span class=\"keywords-and-techs\"><b>Keywords and technologies:</b> Agile SCRUM, Gosu, Java, SVN, Maven, Spring, Spring Boot, Spring Batch, Guidewire, ClaimCenter, jUnit, gUnit.</span>",
-      "highlights": []
-    }
+          "company": "Disneyland Paris",
+          "position": "Commesso/Cassiere",
+          "address": "Parigi, Francia",
+          "website": "",
+          "startDate": "2019-12",
+          "endDate": "2020-01",
+          "summary": "",
+          "highlights": []
+        },
+        {
+          "company": "Immagineazione Sunseekers",
+          "position": "Receptionist",
+          "address": "Napoli, Italia",
+          "website": "",
+          "startDate": "2018-04",
+          "endDate": "2018-06",
+          "summary": "",
+          "highlights": []
+        },
+        {
+          "company": "Ziggurat Hotel",
+          "position": "Sous Chef di cucina",
+          "address": "Guernsey, Regno Unito",
+          "website": "",
+          "startDate": "2017-08",
+          "endDate": "2017-06",
+          "summary": "",
+          "highlights": []
+        },
+    	{
+          "company": "NH Berlin-Postdam Konferenz Hotel",
+          "position": "Commis di cucina",
+          "address": "Berlino, Germania",
+          "website": "",
+          "startDate": "2017-06",
+          "endDate": "2017-04",
+          "summary": "",
+          "highlights": []
+        },
+    	{
+          "company": "Novotel Madrid Sanchinarro",
+          "position": "Commis di cucina",
+          "address": "Madrid, Spagna",
+          "website": "",
+          "startDate": "2017-01",
+          "endDate": "2017-04",
+          "summary": "",
+          "highlights": []
+        },
+    	{
+          "company": "CitySightSeeing",
+          "position": "Promoter Turistico",
+          "address": "Messina, Italia",
+          "website": "",
+          "startDate": "2016-05",
+          "endDate": "2016-08",
+          "summary": "",
+          "highlights": []
+        }
   ],
   "volunteer": [
     {
@@ -67,68 +93,64 @@ export const resume =
     }
   ],
   "education": [
+
     {
-      "institution": "Università degli Studi di Messina",
-      "area": "Computer Science",
-      "studyType": "Bachelor\'s Degree",
-      "startDate": "2011",
-      "endDate": "2014",
-      "gpa": "110/110 cum Laude (4.0 GPA)",
-      "info": "Winner of top university students prize \"<b>Onore al merito: Premio alla Laurea</b>\". see: <span class=\"link-in-content\">bit.ly/2QUTqwk</span><br/><br>Volunteered as <b>coordinator for a 3-months C course</b>; teaching the basics of the language and providing educational material.",
-      "courses": [
-      ]
-    },
-    {
-      "institution": "Coursera & Martin Odersky, EPFL",
-      "area": "Functional Programming Principles in Scala",
-      "studyType": "<span class=\"new-page-margin\"> </span>Course",
-      "startDate": "2017-10",
-      "endDate": "2017-11",
-      "gpa": "100/100",
-      "info": "<b>Summary:</b> <span class=\"link-in-content\">bit.ly/3aeGrxp</span><br><b>Certificate:</b> <span class=\"link-in-content\">bit.ly/2PP8yek</span>",
-      "courses": [
-      ]
-    },
-    {
-      "institution": "Magnolia International Ltd.",
-      "area": "Magnolia Associated Developer",
-      "studyType": "Certification",
-      "startDate": "2017-06",
-      "endDate": "2017-07",
-      "gpa": "93/100",
-      "info": "Personal \"Magnolia Associated Developer\" badge: <span class=\"link-in-content\">bit.ly/36QOf6i</span>",
-      "courses": [
-      ]
-    },
-    {
-      "institution": "Udacity & Google",
-      "area": "Deep Learning & TensorFlow",
-      "studyType": "Course",
-      "startDate": "2016-12",
-      "endDate": "2017-02",
+      "institution": "Università degli studi di Napoli “l’Orientale”",
+      "area": "Mediazione Linguistica Intercurlturale",
+      "studyType": "Laurea Triennale ",
+      "address": "Napoli, Italia",
+      "startDate": "2017",
+      "endDate": "Presente",
       "gpa": "",
-      "info": "<b>Summary:</b> <span class=\"link-in-content\">bit.ly/2u0YaaY</span>",
+      "info": "",
       "courses": [
       ]
     },
     {
-      "institution": "UIIP - Biogem",
-      "area": "Mobile Apps & Digital",
-      "studyType": "Competitive Course",
-      "startDate": "2016-05",
-      "endDate": "2016-07",
+      "institution": "Université Rennes 2",
+      "area": "Langues Étrangères Appliquées",
+      "studyType": "Erasmus+ Studio",
+    "address": "Rennes, Francia ",
+      "startDate": "2019",
+      "endDate": "2020",
       "gpa": "",
-      "info": "Formative and competitive course with the goal of <b>inserting a few selected software engineers in the Swiss market</b>.<br/><br>I was <b>one of the 9 finalists</b> which were hired by the Swiss company <b>ti&m</b>",
+      "info": "",
       "courses": [
       ]
     },
     {
-      "institution": "ITIS G. Marconi - Messina",
-      "area": "Electronics and Telecommunications",
-      "studyType": "High School Diploma",
-      "startDate": "2006",
-      "endDate": "2011",
-      "gpa": "97/100 (4.0 GPA)",
+      "institution": "Youth Exchanges Erasmus+ (London)",
+      "area": "Youth Erasmus Projects",
+      "studyType": "Progetto Erasmus “Finding You”",
+    "address": "Londra, Regno Unito",
+      "startDate": "2018-12-03",
+      "endDate": "2018-12-11",
+      "gpa": "",
+      "info": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Lycée des Métiers François Mitterand",
+      "area": "FCIL Arts de la Table",
+      "studyType": "Progetto Europro",
+    "address": "Château-Chinon,Francia",
+      "startDate": "2016-09",
+      "endDate": "2017-08",
+      "gpa": "",
+      "info": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "I.I.S. “ANTONELLO” di Messina",
+      "area": "Servizi per l’enogastronomia ed ospitalità alberghiera",
+      "studyType": "Diploma di scuola secondaria superiore",
+    "address": "Messina, Italia",
+      "startDate": "2010",
+      "endDate": "2015",
+      "gpa": "",
+      "info": "",
       "courses": [
       ]
     }
@@ -144,126 +166,80 @@ export const resume =
   "publications": [],
   "skills": [
     {
-      "name": "Mindset",
-      "level": "",
-      "keywords": [
-        "Problem Solving",
-        "Quick Learner",
-        "Analytical Thinking",
-      ]
-    },
-    {
-      "name": "Fundamentals",
-      "level": "",
-      "keywords": [
-        "Imperative programming",
-        "OOP",
-        "Relational DBs",
-        "Design Patterns",
-        "APIs",
-      ]
-    },
-    {
-      "name": "Languages",
-      "level": "",
-      "keywords": [
-        "Java",
-        "Gosu",
-        "C",
-        "Python",
-        "SQL",
-      ]
-    },
-    {
-      "name": "Java Ecosystem",
-      "level": "",
-      "keywords": [
-        "Java8",
-        "jUnits",
-        "Tomcat",
-        "Spring",
-        "Hibernate",
-        "Maven",
-        "Gradle"
-      ]
-    },
-    {
-      "name": "Microservices & Messaging",
-      "level": "",
-      "keywords": [
-        "Docker",
-        "Kubernetes",
-        "RabbitMQ",
-      ]
-    },
-    {
-      "name": "Miscellaneous",
-      "level": "",
-      "keywords": [
-        "Agile SCRUM & Kanban",
-        "Git",
-        "Regex",
-        "Fremarker Template",
-      ]
-    },
-    {
-      "name": "Personality",
-      "level": "",
-      "keywords": [
-        "Friendly",
-        "Calm",
-        "Collaborative",
-        "Honest",
-        "Competitive",
-      ]
-    },
+        "name": "Mentalità",
+        "level": "",
+        "keywords": [
+        "Proattività",
+          "Problem Solving",
+          "Lateral Thinking",
+          "Intelligenza Emotiva",
+        ]
+      },
+      {
+        "name": "Personalità",
+        "level": "",
+        "keywords": [
+          "Socievole",
+          "Empatico",
+          "Collaborativo",
+          "Sincero",
+          "Competitivo",
+        ]
+      }
   ],
   "languages": [
     {
       "language": "<span class=\"flag flag-it\"></span>",
-      "fluency": "<span class=\"lang-span\">Italian</span> | &nbsp;Native Speaker"
+      "fluency": "<span class=\"lang-span\">Italiano</span> | &nbsp;Madrelingua"
     },
     {
       "language": "<span class=\"flag flag-gb\"></span>",
-      "fluency": "<span class=\"lang-span\">English</span> | &nbsp;</b>Working Proficiency"
+      "fluency": "<span class=\"lang-span\">Inglese</span> | &nbsp;</b>Avanzato (B2+)"
     },
     {
-      "language": "<span class=\"flag flag-de\"></span>",
-      "fluency": "<span class=\"lang-span\">German</span> | &nbsp;Basic Knowledge"
+      "language": "<span class=\"flag flag-fr\"></span>",
+      "fluency": "<span class=\"lang-span\">Francese</span> | &nbsp;Avanzato (C1)"
     },
     {
       "language": "<span class=\"flag flag-es\"></span>",
-      "fluency": "<span class=\"lang-span\">Spanish</span> | &nbsp;Basic Knowledge"
+      "fluency": "<span class=\"lang-span\">Spagnolo</span> | &nbsp;Intermedio (B1)"
+    },
+    {
+      "language": "<span class=\"flag flag-de\"></span>",
+      "fluency": "<span class=\"lang-span\">Tedesco</span> | &nbsp;Novizio (A2+)"
     }
+
   ],
   "interests": [
     {
-      "name": "Games",
-      "keywords": [
-        "Board Games",
-        "Video Games"
-      ]
-    },
-    {
-      "name": "Puzzles and Riddles",
-      "keywords": []
-    },
-    {
-      "name": "Sport",
-      "keywords": [
-        "Ping Pong",
-        "Volleyball",
-        "Swimming"
-      ]
-    }
+          "name": "Giochi",
+          "keywords": [
+            "Giochi di Società",
+            "Video Games"
+          ]
+        },
+        {
+          "name": "Viaggiare",
+          "keywords": []
+        },
+    	{
+          "name": "Lingue e culture straniere",
+          "keywords": []
+        },
+        {
+          "name": "Sport",
+          "keywords": [
+            "Pallavolo"
+          ]
+        }
   ],
   "references": [],
   "certificates": [
     {
-      "title": "Magnolia Associated Developer",
-      "issuer": "Magnolia International Ltd.",
-      "date": "2017-07",
-      "summary": "Personal \"Magnolia Associated Developer\" badge: <span class=\"link-in-content\">bit.ly/36QOf6i</span>"
+      "title": "Attestato di esecutore BLS, CPR FIRST RESPONDER",
+      "issuer": "Asso. FEMA Group",
+      "date": "15-03-2016",
+      "summary": ""
     }
   ]
 };

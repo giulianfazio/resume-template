@@ -17,3 +17,12 @@
 .certificate-summary {
   @extend .quoted-body;
 }
+
+.certificate-quickInfo-date {
+    color: #7BAFB8;
+    font-weight: 700;
+}
+
+.certificate-quickInfo-issuer {
+    color: #7BAFB8;
+}

@@ -11,13 +11,19 @@ $sub-head-margin-bottom: 0.2em;
 
 .expItem-quickInfo {
   font-weight: bold;
-  margin-bottom:  0.5em;
+  margin-bottom: 0.1em;
   // color: #7BAFC8;
   color: #3a6e87;
 }
 
+.expItem-quickInfo-date {
+  margin-bottom:  0.5em;
+  color: #7BAFB8;
+}
+
 .expItem {
-  margin-bottom: 3em;
+  //margin-bottom: 3em;
+  margin-bottom: 2.3em;
 }
 
 .keywords-and-techs {
