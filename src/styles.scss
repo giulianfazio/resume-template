@@ -92,32 +92,36 @@ body {
 
 
 .side-content {
-  background-color: $side-background-color;
+  background-color: white; //$side-background-color;
   width: $side-column-width; // 7cm;
+  // width: 269px;
   padding-top: $side-column-width/14;
   padding-bottom: $side-column-width/14;
-  padding-left: $side-column-width / 15.6;
+  //padding-left: $side-column-width / 15.6;
   padding-right: $side-column-width / 15.6;//TODO Make it relative
   // $side-column-width/14;
-  color: white;
+  color: black; //white;
   box-sizing: border-box;
+  border-right: 1px solid lightgrey;
+  padding-left: 2em;
 }
 
 .side-content .section-head {
   @extend .h2;
-  text-align: center;
-  margin-bottom: $default-font-size; //1em;
+  text-align: left;
+  margin-bottom: 1.5em; // $default-font-size; //1em;
 }
 
 .side-content .content-section {
-  margin-bottom: 30px; // TODO Make it relative
+  margin-bottom: 3.5em; // TODO Make it relative
   break-before: auto;
   break-inside: avoid;
+  //margin-left: 1em;
 }
 
 .side-content .section-body ul {
   padding-left: 1em;
-  list-style: circle;
+  list-style: disc;
 }
 
 
@@ -125,10 +129,11 @@ body {
   width: $page-width - $side-column-width;
   // padding-top: $side-column-width/14;
   padding-bottom: $side-column-width/14;
-  padding-left: $side-column-width / 15.6;
+  //padding-left: $side-column-width / 15.6;
+  padding-left: 1.5em;
 //padding-right: 34px; //TODO Make it relative
-  padding-left: $side-column-width / 15.6;
   box-sizing: border-box;
+  padding-right: 1.5em;
 }
 
 
@@ -183,9 +188,9 @@ ul.projects-list li div{
   text-align: justify;
 }
 
-.skill-name {
-  font-weight: bold;
-}
+// .skill-name {
+//   font-weight: bold;
+// }
 
 .summary-section .section-body p, .expItem-summary p {
   margin-top: 0;

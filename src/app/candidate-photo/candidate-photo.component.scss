@@ -1,10 +1,16 @@
 @import '../../variables.scss';
 
 .candidate-photo-div {
-  margin-bottom: 1.4em;
+  margin-bottom: 2.7em;
 }
 
 img.candidate-photo {
   border-radius: 50%;
-  width: $side-column-width / 1.39;
+  //width: $side-column-width / 1.39;
+  //width: 240px;
+  //height: 240px;
+  //margin-left: -18px;
+  width: 220px;
+  height: 220px;
+  margin-left: -16px;
 }

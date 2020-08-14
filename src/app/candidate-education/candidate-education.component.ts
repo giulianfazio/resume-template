@@ -27,6 +27,7 @@ export class CandidateEducationComponent implements OnInit {
             period: eduItem.startDate + ' - ' + (eduItem.endDate || 'Present'),
             info: eduItem.info,
             courses: eduItem.courses,
+            address: eduItem.address,
         })
       })
     }

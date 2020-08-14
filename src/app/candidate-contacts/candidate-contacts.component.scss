@@ -3,7 +3,7 @@
 
 .contacts-section .section-body ul {
   padding: 0;
-  margin-top: -7px; // TODO Make it relative
+  margin-top: 0; //-7px; // TODO Make it relative
   margin-left: -17px; // TODO Make it relative
   list-style: none;
 }
@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   align-content: center;
-  margin-bottom: 11px; // TODO Make it relative
+  margin-bottom: 3px; //11px; // TODO Make it relative
 }
 
 .contacts-section .section-body li:last-child .wrapper {
@@ -31,13 +31,14 @@
 }
 
 .contacts-section .section-body li i.contact-icon {
-  font-size: $contact-icon-font-size;
+  font-size: 19px; //$contact-icon-font-size;
   background-color: white;
-  color: $side-background-color;
+  //color: $side-background-color;
+  color: black;
   box-sizing: border-box;
   border-radius: 1000px; // TODO Make it relative
   height: $contact-icon-box-side;
-  line-height: $contact-icon-box-side;
+  line-height: 25px; //$contact-icon-box-side;
   width: $contact-icon-box-side;
   text-align: center;
 }

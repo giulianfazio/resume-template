@@ -12,13 +12,14 @@ export class CandidateContactsComponent implements OnInit {
   constructor() {
     this.addBirthdayToContacts(this.contacts, resume);
     this.addAddressToContacs(this.contacts, resume);
-    this.addNationality(this.contacts, resume);
     // this.addFamily(this.contacts, resume);
     this.addEmailToContacts(this.contacts, resume);
     this.addPhoneNumberToContacts(this.contacts, resume);
     this.addWebsiteToContacts(this.contacts, resume);
     this.addProfilesToContact(this.contacts, resume);
-    this.addDocuments(this.contacts, resume);
+    // this.addDocuments(this.contacts, resume);
+    this.addNationality(this.contacts, resume);
+
 
   }
 
@@ -39,19 +40,25 @@ export class CandidateContactsComponent implements OnInit {
   }
 
   addNationality(contacts, jsonResume) {
-    contacts.push({
-      key: 'nationality',
-      styleClass: 'far fa-id-card',
-      value: 'Italian with B-Permit',
-    });
+  let license = jsonResume.basics.driverLicense;
+  if (!!license) {
+      contacts.push({
+        key: 'nationality',
+        styleClass: 'far fa-id-card',
+        value: license,
+      });
+    }
   }
 
   addBirthdayToContacts(contacts, jsonResume) {
-    contacts.push({
-      key: 'birthday',
-      styleClass: 'fa fa-birthday-cake',
-      value: '02 Nov 1992',
-    });
+    let birthDate = jsonResume.basics.birthDate;
+    if (!!birthDate) {
+      contacts.push({
+        key: 'birthday',
+        styleClass: 'fa fa-birthday-cake',
+        value: birthDate,
+      });
+    }
   }
 
   addEmailToContacts(contacts, jsonResume) {
