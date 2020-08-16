@@ -2,7 +2,7 @@ export const resume =
 {
   "basics": {
     "name": "Roberto Fazio",
-    "label": "Addetto alle vendite, Magazziniere",
+    "label": "Addetto alle vendite e stoccaggio",
     "picture": "../../assets/photo/roberto.jpeg",
     "email": "fazrob@hotmail.it",
     "phone": "+39 328 913 1628",
@@ -23,18 +23,18 @@ export const resume =
   "work": [
     {
       "company": "Lisitano Giuseppe Abbigliamento",
-      "position": "Commesso",
+      "position": "Addetto alle Vendite ed alla Gestione del Magazzino",
       "address": "Messina, IT",
       "website": "",
       "startDate": "Feb. 1998",
       "endDate": "Mag. 2020",
-      "summary": "Addetto alla vendita, responsabile logistica, cassiere, responsabile supervisore zona lavoro. Presentazione capi di abbigliamento, etichettamento prezzi, riordino reparti e magazzino, vendita assistita, gestione cassa.",
+      "summary": "(addetto allo stoccaggio e allestimento merci). Addetto alla vendita, responsabile logistica, cassiere, responsabile supervisore zona lavoro. Presentazione capi di abbigliamento, etichettamento prezzi, riordino reparti e magazzino, vendita assistita, gestione cassa.",
       "highlights": []
     },
     {
       "company": "Perni",
       "position": "Agente di vendita",
-      "address": "[Da Scrivere]",
+      "address": "Catania, IT",
       "website": "",
       "startDate": "Mag. 1997",
       "endDate": "Nov. 1997",
@@ -44,7 +44,7 @@ export const resume =
     {
       "company": "Compagnia Controcarri Aosta",
       "position": "Servizio di leva militare",
-      "address": "[Da Scrivere]",
+      "address": "Messina, IT",
       "website": "",
       "startDate": "Apr. 1988",
       "endDate": "Apr. 1989",
@@ -69,6 +69,7 @@ export const resume =
       "address": "Catania",
       "area": "Geometra",
       "studyType": "Diploma",
+      "info": "",
       "startDate": "",
       "endDate": "",
       "gpa": "",
