@@ -10,6 +10,7 @@ export class CandidateContactsComponent implements OnInit {
   contacts = []
 
   constructor() {
+    this.addNationality(this.contacts, resume);
     this.addBirthdayToContacts(this.contacts, resume);
     this.addAddressToContacs(this.contacts, resume);
     // this.addFamily(this.contacts, resume);
@@ -18,7 +19,6 @@ export class CandidateContactsComponent implements OnInit {
     this.addWebsiteToContacts(this.contacts, resume);
     this.addProfilesToContact(this.contacts, resume);
     // this.addDocuments(this.contacts, resume);
-    this.addNationality(this.contacts, resume);
 
 
   }

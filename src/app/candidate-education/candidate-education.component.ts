@@ -14,7 +14,7 @@ export class CandidateEducationComponent implements OnInit {
     if (!!education) {
       education.forEach(eduItem => {
         let head = eduItem.studyType + ': ' + eduItem.area;
-        let grade = eduItem.gpa;Q
+        let grade = eduItem.gpa;
         let institution = eduItem.institution;
         let period = eduItem.startDate + ' - ' + (eduItem.endDate || 'Present');
         let info = eduItem.info;
@@ -27,7 +27,7 @@ export class CandidateEducationComponent implements OnInit {
             period: eduItem.startDate + ' - ' + (eduItem.endDate || 'Present'),
             info: eduItem.info,
             courses: eduItem.courses,
-            address: eduItem.address,
+            address: eduItem.endDate + ' | ' + eduItem.address,
         })
       })
     }

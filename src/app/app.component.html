@@ -1,17 +1,20 @@
 <div id="wrapper">
   <div class="side-content">
     <app-candidate-photo></app-candidate-photo>
-    <app-candidate-contacts></app-candidate-contacts>
 
+    <div class="content-sub-col">
+      <app-candidate-contacts></app-candidate-contacts>
+      <app-candidate-languages></app-candidate-languages>
 
-    <app-candidate-skills></app-candidate-skills>
-    <app-candidate-education></app-candidate-education>
-    <!--
-    <app-candidate-languages></app-candidate-languages>
-    <app-version></app-version>
-    -->
+      <app-candidate-skills></app-candidate-skills>
+      <!--
 
-    <app-page-filler [spaces]=16></app-page-filler>
+      <app-version></app-version>
+      -->
+
+      <app-page-filler [spaces]=16></app-page-filler>
+    </div>
+
 
 
 
@@ -19,7 +22,11 @@
   <div id="main-content">
     <app-candidate-labeling></app-candidate-labeling>
     <app-candidate-summary></app-candidate-summary>
-    <app-candidate-experience></app-candidate-experience>
+
+    <div class="content-sub-col">
+      <app-candidate-education></app-candidate-education>
+
+      <app-candidate-experience></app-candidate-experience>
 
     <!--
     <app-candidate-volunteering></app-candidate-volunteering>
@@ -29,6 +36,7 @@
     -->
     <app-page-filler [spaces]=100></app-page-filler>
 
+    </div>
 
   </div>
 

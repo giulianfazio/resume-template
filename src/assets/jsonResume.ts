@@ -1,54 +1,49 @@
 export const resume =
 {
   "basics": {
-    "name": "Roberto Fazio",
-    "label": "Addetto alle vendite e stoccaggio",
-    "picture": "../../assets/photo/roberto.jpeg",
-    "email": "fazrob@hotmail.it",
-    "phone": "+39 328 913 1628",
-    "birthDate" : "11 Ottobre 1968",
+    "name": "Arinda E. Prayudhi",
+    "label": "",
+    "picture": "../../assets/photo/elvina.jpg",
+    "email": "arindaelvina@yahoo.com",
+    "phone": "+41 76 529 2990",
+    "birthDate" : "07 September 1996",
     "website": "",
-    "driverLicense": "Patente di Guida C",
-    "summary": "Persona seria e puntuale, precisa e con tanta voglia di lavorare, ottima capacità di relazionarsi al pubblico. buona predisposizione nei rapporti interpersonali. Dinamico e attento alle esigenze del cliente.",
+    "driverLicense": "Indonesian with B-Permit",
+    "summary": "I am a fresh graduate in Hospitality Management with a few F&B working experiences in restaurant, hotel, and catering business. I am a heart-driven person with a strong work ethic inherited from my family and - even if I enjoy taking up responsibilities on my own to prove myself - what I enjoy the most is working within a team of other equally passionate people. As my study path may suggest, I do love traveling, different cultures, and building longlasting social relationships. That makes it an obvious choice for me to invest my future in the fields of tourism and hospitality.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Messina",
-      "countryCode": "IT",
+      "city": "Zurich",
+      "countryCode": "CH",
       "region": ""
     },
     "profiles": [
+        {
+            "network": "Linkedin",
+            "username": "elvina-prayudhi",
+            "url": "<span class=\"link-in-content\">linkedin.com/in/elvina-prayudhi</span>"
+          }
     ]
   },
   "work": [
     {
-      "company": "Lisitano Giuseppe Abbigliamento",
-      "position": "Addetto alle Vendite ed alla Gestione del Magazzino",
-      "address": "Messina, IT",
+      "company": "Khujug Restaurant",
+      "position": "Food and Beverage Assistant",
+      "address": "Zurich, CH",
       "website": "",
-      "startDate": "Feb. 1998",
-      "endDate": "Mag. 2020",
-      "summary": "(addetto allo stoccaggio e allestimento merci). Addetto alla vendita, responsabile logistica, cassiere, responsabile supervisore zona lavoro. Presentazione capi di abbigliamento, etichettamento prezzi, riordino reparti e magazzino, vendita assistita, gestione cassa.",
+      "startDate": "Aug 2018",
+      "endDate": "Nov 2018",
+      "summary": "<ul><li>Prepared morning shift to set up lunch and dinner and checking miss en place during closing time.</li><li>Checked order accuracy, food quality before delivering to customers and collected guests' satisfaction feedback about the service.</li><li>Discussed menu items and dietary concerns, noted special requests, and suggested appetizers and dishes.</li><li>Served and prepared different types of beverages; cocktails and mocktails.</li></ul>",
       "highlights": []
     },
     {
-      "company": "Perni",
-      "position": "Agente di vendita",
-      "address": "Catania, IT",
+      "company": "The Ritz-Carlton",
+      "position": "Food and Beverage Assistant ",
+      "address": "Bali, ID",
       "website": "",
-      "startDate": "Mag. 1997",
-      "endDate": "Nov. 1997",
-      "summary": "Dimostrazione e vendita dei prodotti offerti. Organizzazione degli ordini di acquisto, presentazione catalogo di vendita, assistenza al cliente pre e post-vendita.",
-      "highlights": []
-    },
-    {
-      "company": "Compagnia Controcarri Aosta",
-      "position": "Servizio di leva militare",
-      "address": "Messina, IT",
-      "website": "",
-      "startDate": "Apr. 1988",
-      "endDate": "Apr. 1989",
-      "summary": "Gestione enogastronomica, distribuzione di vivande, servizio di sorveglianza diurno e notturno, organizzazione del personale di supporto. Preparazione e distribuzione dei viveri, incarico di sentinella, assegnazione turni di lavoro al personale.",
+      "startDate": "Aug 2016",
+      "endDate": "Feb 2017",
+      "summary": "<ul><li>Monitored the kitchen area to ensure overall safety, proper food handling techniques, and a timely manner service.</li><li>Found and presented ideas to increase customer satisfaction during their stay (i.e. by creating engaging couples and family packages).</li><li>Established and enforced hotel standards of personnel performance and service to provide customers with consistent and positive experiences.</li><li>Onboarded incoming interns on different job duties, including food preparation, money handling, and cleaning roles.</li></ul>",
       "highlights": []
     }
   ],
@@ -65,13 +60,25 @@ export const resume =
   ],
   "education": [
     {
-      "institution": "Istituto Tecnico per Geometra \"Pitagora\"",
-      "address": "Catania",
-      "area": "Geometra",
-      "studyType": "Diploma",
+      "institution": "Business And Hotel Management School (B.H.M.S)",
+      "address": "Lucerne, CH",
+      "area": "International Hospitality Management",
+      "studyType": "Master Degree",
       "info": "",
       "startDate": "",
-      "endDate": "",
+      "endDate": "Dec 2019",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Business And Hotel Management School (B.H.M.S)",
+      "address": "Lucerne, CH",
+      "area": "Hotel And Hospitality Management ",
+      "studyType": "Bachelor Degree",
+      "info": "",
+      "startDate": "",
+      "endDate": "Jun 2017",
       "gpa": "",
       "courses": [
       ]
@@ -88,32 +95,45 @@ export const resume =
   "publications": [],
   "skills": [
     {
-      "name": "Lavoro di gruppo autonomo",
+      "name": "Strong attention to details",
       "level": "",
       "keywords": [
+
       ]
     },
     {
-      "name": "Conoscenza informatica di piattaforme in linea e dispositivi elettronici.",
+      "name": "Ability to work under pressure",
       "level": ""
     },
     {
-      "name": "Dinamicità, affidabilità, serietà, professionalità.",
+      "name": "Motivated, flexible and dedicated person",
+      "level": ""
+    },
+    {
+      "name": "Computer proficiency (Microsoft Office/Suite)",
+      "level": ""
+    },
+    {
+      "name": "Strong team member",
+      "level": ""
+    },
+    {
+      "name": "Actively attached with coaching to learn new things",
       "level": ""
     }
   ],
   "languages": [
     {
-      "language": "<span class=\"flag flag-it\"></span>",
-      "fluency": "<span class=\"lang-span\">Italiano</span> | &nbsp;Madrelingua"
+      "language": "<span class=\"flag flag-id\"></span>",
+      "fluency": "<span class=\"lang-span\">Indonesian</span> | Mother tongue"
     },
     {
       "language": "<span class=\"flag flag-gb\"></span>",
-      "fluency": "<span class=\"lang-span\">Inglese</span> | &nbsp;</b>[Da Scrivere]"
+      "fluency": "<span class=\"lang-span\">English</span> | Working Proficiency"
     },
     {
-      "language": "<span class=\"flag flag-fr\"></span>",
-      "fluency": "<span class=\"lang-span\">Francese</span> | &nbsp;[Da Scrivere]"
+      "language": "<span class=\"flag flag-de\"></span>",
+      "fluency": "<span class=\"lang-span\">German</span> | Basic Knowledge"
     }
   ],
   "interests": [

@@ -93,8 +93,8 @@ body {
 
 .side-content {
   background-color: white; //$side-background-color;
-  width: $side-column-width; // 7cm;
-  // width: 269px;
+  //width: $side-column-width; // 7cm;
+  width: 318px;
   padding-top: $side-column-width/14;
   padding-bottom: $side-column-width/14;
   //padding-left: $side-column-width / 15.6;
@@ -103,13 +103,14 @@ body {
   color: black; //white;
   box-sizing: border-box;
   border-right: 1px solid lightgrey;
-  padding-left: 2em;
+  padding-left: 0em;
+  padding-right: 1em;
 }
 
 .side-content .section-head {
   @extend .h2;
   text-align: left;
-  margin-bottom: 1.5em; // $default-font-size; //1em;
+  margin-bottom: 1.1em; // $default-font-size; //1em;
 }
 
 .side-content .content-section {
@@ -201,6 +202,7 @@ ul.projects-list li div{
   font-weight: bold;
   width: 68px;
   display: inline-block;
+  width: 91px;
 }
 
 .new-page-margin {
@@ -216,9 +218,26 @@ ul.projects-list li div{
   margin-bottom: 57px;
 }
 
+.content-sub-col {
+    // position: absolute;
+     //top: 286px;
 
-app-candidate-experience {
-  position: absolute;
-  top: 286px;
+}
+
+.side-content .content-sub-col {
+  // width: 221px;
+}
+
+#main-content .content-sub-col {
   width: 638.5px;
+  position: absolute;
+       top: 298px;
+}
+
+.side-content {
+  // font-size: 15px;
+}
+
+.languages-section .section-body, .contacts-section .section-body {
+  padding-left: 4px;
 }
