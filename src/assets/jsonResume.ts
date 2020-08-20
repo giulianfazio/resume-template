@@ -1,7 +1,7 @@
 export const resume =
 {
   "basics": {
-    "name": "Arinda E. Prayudhi",
+    "name": "Arinda Elvina Prayudhi",
     "label": "",
     "picture": "../../assets/photo/elvina.jpg",
     "email": "arindaelvina@yahoo.com",
@@ -33,7 +33,7 @@ export const resume =
       "website": "",
       "startDate": "Aug 2018",
       "endDate": "Nov 2018",
-      "summary": "<ul><li>Prepared morning shift to set up lunch and dinner and checking miss en place during closing time.</li><li>Checked order accuracy, food quality before delivering to customers and collected guests' satisfaction feedback about the service.</li><li>Discussed menu items and dietary concerns, noted special requests, and suggested appetizers and dishes.</li><li>Served and prepared different types of beverages; cocktails and mocktails.</li></ul>",
+      "summary": "<ul><li>Prepared morning shift to set up lunch and dinner and checking miss en place during closing time.</li><li>Checked order accuracy, food quality before delivering to customers and collected guests' satisfaction feedback about the service.</li><li>Served and prepared different types of beverages; cocktails and mocktails.</li><li>Discussed menu items and dietary concerns, noted special requests, and suggested appetizers and dishes.</li></ul>",
       "highlights": []
     },
     {
@@ -74,7 +74,7 @@ export const resume =
     {
       "institution": "Business And Hotel Management School (B.H.M.S)",
       "address": "Lucerne, CH",
-      "area": "Hotel And Hospitality Management ",
+      "area": "Hotel And Hospitality Management",
       "studyType": "Bachelor Degree",
       "info": "",
       "startDate": "",
@@ -82,7 +82,19 @@ export const resume =
       "gpa": "",
       "courses": [
       ]
-    }
+    },
+     {
+       "institution": "TMC Academy",
+       "address": "Singapore, SG",
+       "area": "Tourism, Hospitality And Leisure Management",
+       "studyType": "Higher Diploma",
+       "info": "After-High-School Hospitality Specialization Diploma combined with Intensive English courses oriented to obtain a working proficiency with the language.",
+       "startDate": "",
+       "endDate": "Dec 2015",
+       "gpa": "",
+       "courses": [
+       ]
+     }
   ],
   "awards": [
     {

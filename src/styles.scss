@@ -142,6 +142,8 @@ body {
   @extend .h2;
   margin-bottom: $default-font-size*1.2; //1em;
   text-align: center;
+  margin-bottom: 27.2px;
+
 }
 
 #main-content .content-section {
@@ -229,7 +231,7 @@ ul.projects-list li div{
 }
 
 #main-content .content-sub-col {
-  width: 638.5px;
+  width: 605px;
   position: absolute;
        top: 298px;
 }
