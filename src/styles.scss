@@ -141,6 +141,7 @@ body {
   @extend .h2;
   margin-bottom: $default-font-size*1.2; //1em;
   text-align: center;
+  margin-bottom: 26.2px;
 }
 
 #main-content .content-section {
@@ -218,7 +219,7 @@ ul.projects-list li div{
 
 
 app-candidate-experience {
-  position: absolute;
-  top: 286px;
-  width: 638.5px;
+  //position: absolute;
+  //top: 286px;
+  //width: 638.5px;
 }

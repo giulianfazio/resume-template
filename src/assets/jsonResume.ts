@@ -2,14 +2,14 @@ export const resume =
 {
   "basics": {
     "name": "Roberto Fazio",
-    "label": "Addetto alle vendite e stoccaggio",
+    "label": "Addetto alle vendite e Magazziniere",
     "picture": "../../assets/photo/roberto.jpeg",
     "email": "fazrob@hotmail.it",
     "phone": "+39 328 913 1628",
     "birthDate" : "11 Ottobre 1968",
     "website": "",
     "driverLicense": "Patente di Guida C",
-    "summary": "Persona seria e puntuale, precisa e con tanta voglia di lavorare, ottima capacità di relazionarsi al pubblico. buona predisposizione nei rapporti interpersonali. Dinamico e attento alle esigenze del cliente.",
+    "summary": "<p>Sono una persona seria e puntuale con più di <b>20 anni</b> di esperienza come <b>addetto alle vendite e magazziniere</b> ed un'esperienza di <b>10 anni</b> nel ruolo di <b>supervisore</b>.</p><p>Ho una <b>naturale propenzione alle pubbliche relazioni</b> ed al contatto con la clientela.</p><p>Possiedo un'<b>ottima dimestichezza coi sistemi informatici</b> e dispositivi elettronici di uso comune. Il che rende più rapida un'eventuale formazione su programmi, piattaforme informatiche, e altri strumenti simili da usare sul posto di lavoro.</p>",
     "location": {
       "address": "",
       "postalCode": "",
@@ -23,12 +23,12 @@ export const resume =
   "work": [
     {
       "company": "Lisitano Giuseppe Abbigliamento",
-      "position": "Addetto alle Vendite ed alla Gestione del Magazzino",
+      "position": "Addetto alle vendite ed alla gestione del magazzino",
       "address": "Messina, IT",
       "website": "",
       "startDate": "Feb. 1998",
       "endDate": "Mag. 2020",
-      "summary": "(addetto allo stoccaggio e allestimento merci). Addetto alla vendita, responsabile logistica, cassiere, responsabile supervisore zona lavoro. Presentazione capi di abbigliamento, etichettamento prezzi, riordino reparti e magazzino, vendita assistita, gestione cassa.",
+      "summary": "Addetto allo stoccaggio e allestimento merci, Addetto alla vendite, cassiere, supervisore della zona lavoro. <br>Presentazione capi di abbigliamento, etichettamento prezzi, riordino reparti e magazzino, vendita assistita, gestione cassa, apertuna e chiusura del punto vendita",
       "highlights": []
     },
     {
@@ -88,18 +88,16 @@ export const resume =
   "publications": [],
   "skills": [
     {
-      "name": "Lavoro di gruppo autonomo",
+      "name": "Naturale propenzione alle pubbliche relazioni ad al contatto con la clientela",
       "level": "",
       "keywords": [
       ]
     },
     {
-      "name": "Conoscenza informatica di piattaforme in linea e dispositivi elettronici.",
-      "level": ""
-    },
-    {
-      "name": "Dinamicità, affidabilità, serietà, professionalità.",
-      "level": ""
+      "name": "Dimestichezza con sistemi informatici e dispositivi elettronici di comune utilizzo",
+      "level": "",
+      "keywords": [
+      ]
     }
   ],
   "languages": [
