@@ -9,7 +9,7 @@ export const resume =
     "birthDate" : "07 September 1996",
     "website": "",
     "driverLicense": "Indonesian with B-Permit",
-    "summary": "I am a fresh graduate in Hospitality Management with a few F&B working experiences in restaurant, hotel, and catering business. I am a heart-driven person with a strong work ethic inherited from my family and - even if I enjoy taking up responsibilities on my own to prove myself - what I enjoy the most is working within a team of other equally passionate people. As my study path may suggest, I do love traveling, different cultures, and building longlasting social relationships. That makes it an obvious choice for me to invest my future in the fields of tourism and hospitality.",
+    "summary": "<p>I am a fresh graduate in Hospitality Management with a few F&B working experiences in restaurant and hotel.</p><p>I am a heart-driven person with a strong work ethic inherited from my family and - even if I enjoy taking up responsibilities on my own to prove myself - what I enjoy the most is working within a team of other equally passionate people.</p><p>As my study path may suggest, I do love traveling, different cultures, and building longlasting social relationships. That makes it an obvious choice for me to invest my future in the fields of tourism and hospitality.</p>",
     "location": {
       "address": "",
       "postalCode": "",
@@ -20,8 +20,8 @@ export const resume =
     "profiles": [
         {
             "network": "Linkedin",
-            "username": "elvina-prayudhi",
-            "url": "<span class=\"link-in-content\">linkedin.com/in/elvina-prayudhi</span>"
+            "username": "arinda-prayudhi",
+            "url": "<span class=\"link-in-content\">linkedin.com/in/arinda-prayudhi</span>"
           }
     ]
   },
@@ -33,7 +33,7 @@ export const resume =
       "website": "",
       "startDate": "Aug 2018",
       "endDate": "Nov 2018",
-      "summary": "<ul><li>Prepared morning shift to set up lunch and dinner and checking miss en place during closing time.</li><li>Checked order accuracy, food quality before delivering to customers and collected guests' satisfaction feedback about the service.</li><li>Served and prepared different types of beverages; cocktails and mocktails.</li><li>Discussed menu items and dietary concerns, noted special requests, and suggested appetizers and dishes.</li></ul>",
+      "summary": "<ul><li>Prepared morning shift to set up lunch and dinner and checking miss en place during closing time.</li><li>Verified order accuracy, food quality before delivering to customers, and collected guests’ satisfaction feedback about the service.</li><li>Prepared and served cocktails, mocktails, and other types of beverages.</li><li>Guided the clientele through dietary concerns and noted special requests.</li></ul>",
       "highlights": []
     },
     {

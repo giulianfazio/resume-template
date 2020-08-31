@@ -135,6 +135,8 @@ body {
 //padding-right: 34px; //TODO Make it relative
   box-sizing: border-box;
   padding-right: 1.5em;
+  padding-right: 0;
+  padding-left: 1em;
 }
 
 
@@ -232,6 +234,7 @@ ul.projects-list li div{
 
 #main-content .content-sub-col {
   width: 605px;
+    width: 637px;
   position: absolute;
        top: 298px;
 }
