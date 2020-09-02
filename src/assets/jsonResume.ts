@@ -48,7 +48,7 @@ export const resume =
       "website": "",
       "startDate": "Apr. 1988",
       "endDate": "Apr. 1989",
-      "summary": "Gestione enogastronomica, distribuzione di vivande, servizio di sorveglianza diurno e notturno, organizzazione del personale di supporto. Preparazione e distribuzione dei viveri, incarico di sentinella, assegnazione turni di lavoro al personale.",
+      "summary": "Gestione enogastronomica, servizio di sorveglianza diurno e notturno, organizzazione del personale di supporto. Preparazione e distribuzione dei viveri, incarico di sentinella, assegnazione turni di lavoro al personale.",
       "highlights": []
     }
   ],
